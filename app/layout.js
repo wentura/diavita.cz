@@ -1,4 +1,9 @@
 import Header from "@/components/header";
+import HeadignComponent from "@/components/headignComponent";
+import HeroComponent from "@/components/hero";
+import KonkurencniVyhodyComponent from "@/components/konkurencniVyhodyComponent";
+import ProductGridComponent from "@/components/productGridComponent";
+import WhereToBuyComponent from "@/components/whereToBuyComponent";
 
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -15,9 +20,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
- 
+        {/* <HeroComponent /> */}
+        {/* <ProductGridComponent /> */}
 
         {children}
+        <HeadignComponent />
+        <KonkurencniVyhodyComponent />
+        <WhereToBuyComponent />
       </body>
     </html>
   );

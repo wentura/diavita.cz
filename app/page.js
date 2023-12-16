@@ -10,9 +10,9 @@ export default function Home() {
     <main>
       <HeroComponent />
       <ProductGridComponent />
-      <HeadignComponent />
-      <KonkurencniVyhodyComponent />
-      <WhereToBuyComponent />
+      {/* <HeadignComponent /> */}
+      {/* <KonkurencniVyhodyComponent /> */}
+      {/* <WhereToBuyComponent /> */}
     </main>
   );
 }

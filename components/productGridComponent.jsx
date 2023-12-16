@@ -1,30 +1,6 @@
 import React from "react";
-const categories = [
-  {
-    title: "Vazelínky VALINKA",
-    link: "/vazelina",
-    text: "Péče pro Vaše ruce v létě i v zimě.",
-    catImage: "https://dummyimage.com/400x600/c3b.jpg?text=IMG%201",
-  },
-  {
-    title: "Bylinné sirupy",
-    link: "/bylinnesirupy",
-    text: "Pirupy s jitrocelovým nebo mateřídouškovým extraktem",
-    catImage: "https://dummyimage.com/400x600/ce3e.jpg?text=IMG%202",
-  },
-  {
-    title: "Bylinné čaje",
-    link: "/bylinnecaje",
-    text: "Tradiční bylinné čaje podle původních receptur.",
-    catImage: "https://dummyimage.com/400x600/a03.jpg?text=IMG%203",
-  },
-  {
-    title: "Přírodní sladidla",
-    link: "/prirodnisladidla",
-    text: "Tradiční bylinné čaje podle původních receptur.",
-    catImage: "https://dummyimage.com/400x600/cac.jpg?text=IMG%204",
-  },
-];
+import { data } from "./data.js";
+const colors = ["#BE1326", "#8BBF38", "#23893B", "#1E1B1B"];
 export default function ProductGridComponent() {
   return (
     <div className="bg-green-50 py-12 sm:py-16 lg:py-32 drop-shadow-2xl">
@@ -39,11 +15,11 @@ export default function ProductGridComponent() {
           </p>
         </div>
         <div className="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
-          {categories.map((category) => {
+          {data.map((category) => {
             return (
-              <div key={category.link}>
+              <div key={category.shortTitle}>
                 <a
-                  href={category.link}
+                  href={`/kategorie/${category.link}/${category.id}`}
                   className="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
                 >
                   <img
@@ -64,7 +40,7 @@ export default function ProductGridComponent() {
 
                 <div className="flex flex-col items-center gap-2 px-2">
                   <a
-                    href={category.link}
+                    href={category.url}
                     className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
                   >
                     {category.title}
