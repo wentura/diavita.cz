@@ -10,27 +10,35 @@ export default function Page({ params }) {
             {kategorie.title}
           </h2>
         </div>
-        <p className="text-sm py-4">{kategorie.longText}</p>
+        <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-8">
+          <p className="text-sm py-4 max-w-full md:max-w-1/2 lg:max-w-2/3">
+            {kategorie.longText}
+          </p>
+          <img
+            src={kategorie.image}
+            className="max-w-full md:max-w-1/2 lg:max-w-1/3 max-h-72 object-cover object-center"
+          />
+        </div>
 
         <div className="flex flex-wrap gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 justify-center">
           {kategorie.products.map((product) => {
             return (
               <div key={product.title}>
                 <a
-                  href={product.url}
-                  className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
+                  href={product.id}
+                  className="group relative mb-2 block overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
                 >
                   <img
-                    src={product.image}
+                    src={product.image[1]}
                     loading="lazy"
                     alt={product.title}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full max-h-96"
                   />
                 </a>
 
                 <div className="text-center">
                   <a
-                    href={product.url}
+                    href={product.id}
                     className="hover:gray-800 mb-1 text-gray-500 transition duration-100 lg:text-lg"
                   >
                     {product.title}
