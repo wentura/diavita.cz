@@ -1,3 +1,4 @@
+import Logo from "./logo";
 import SocialComponent from "./socialComponent";
 import SubMenuButtons from "./subMenuButtons";
 
@@ -6,16 +7,14 @@ export default function HeroComponent() {
     <div className="bg-white  py-12 md:py-16 lg:py-44">
       <section className="mx-auto max-w-screen-2xl">
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
-          <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
-            <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
-              Diavita
-            </h1>
-            <p className="max-w-md leading-relaxed text-gray-500 text-md lg:text-xl ">
+          <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48 items-center">
+            <Logo klass="230" />
+            <p className="max-w-md leading-relaxed text-gray-500 text-md lg:text-xl px-4">
               Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel.
             </p>
           </div>
 
-          <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
+          <div className="mb-12 hidden sm:flex w-full md:mb-16 lg:w-2/3">
             <div className="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
               <img
                 src="https://dummyimage.com/500x500/c3c3c3.jpg?text=IMG%201"

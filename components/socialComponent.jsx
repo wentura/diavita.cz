@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SocialComponent() {
   return (
-    <div className="flex items-center justify-center gap-4 lg:justify-start">
+    <div className="hidden sm:flex  items-center justify-center gap-4 lg:justify-start">
       <div className="flex gap-4">
         <a
           href="#"

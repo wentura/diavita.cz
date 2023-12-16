@@ -1,11 +1,11 @@
 import React from "react";
 
-function Icon() {
+function Icon({ klass }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="100"
-      height="50"
+      width={klass ? klass : 100}
+      height={klass ? klass : 50}
       version="1.1"
       viewBox="0 0 87.714 68.86"
     >
