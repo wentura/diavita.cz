@@ -19,7 +19,7 @@ export default function ProductGridComponent() {
             return (
               <div key={category.shortTitle}>
                 <a
-                  href={`/kategorie/${category.link}/${category.id}`}
+                  href={`/${category.link}/${category.id}`}
                   className="group relative mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
                 >
                   <img

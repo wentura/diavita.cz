@@ -7,7 +7,7 @@ export default function NavComponent() {
         return (
           <a
             key={nav.shortTitle}
-            href={`/kategorie/${nav.link}/${nav.id}`}
+            href={`/${nav.link}/${nav.id}`}
             className="text-md font-semibold text-indigo-500 hidden lg:flex"
           >
             {nav.shortTitle}

@@ -7,7 +7,7 @@ export default function SubMenuButtons() {
         return (
           <a
             key={nav.shortTitle}
-            href={`/kategorie/${nav.link}/${nav.id}`}
+            href={`/${nav.link}/${nav.id}`}
             className="w-1/4 text-gray-500 underline underline-offset-4 decoration-green-500"
           >
             {nav.shortTitle}
