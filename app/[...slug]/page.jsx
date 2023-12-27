@@ -1,3 +1,4 @@
+import { isSupported, sanitize } from "isomorphic-dompurify";
 import { data } from "/components/data.js";
 
 export default function Page({ params }) {
@@ -11,9 +12,12 @@ export default function Page({ params }) {
           </h2>
         </div>
         <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-8">
-          <p className="text-sm py-4 max-w-full md:max-w-1/2 lg:max-w-2/3">
-            {kategorie.longText}
-          </p>
+          <p
+            className="text-md py-4 max-w-full md:max-w-1/2 lg:max-w-2/3"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(kategorie.longText),
+            }}
+          ></p>
           <img
             src={kategorie.image}
             className="max-w-full md:max-w-1/2 lg:max-w-1/3 max-h-72 object-cover object-center"
@@ -25,7 +29,7 @@ export default function Page({ params }) {
             return (
               <div key={product.title}>
                 <a
-                  href={product.id}
+                  href={`/produkty/${kategorie.id}/${product.id}`}
                   className="group relative mb-2 block overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
                 >
                   <img
@@ -38,7 +42,7 @@ export default function Page({ params }) {
 
                 <div className="text-center">
                   <a
-                    href={product.id}
+                    href={`/produkty/${kategorie.id}/${product.id}`}
                     className="hover:gray-800 mb-1 text-gray-500 transition duration-100 lg:text-lg"
                   >
                     {product.title}
