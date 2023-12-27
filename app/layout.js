@@ -1,10 +1,12 @@
 import Header from "@/components/header";
+
 import HeadignComponent from "@/components/headignComponent";
 import HeroComponent from "@/components/hero";
 import KonkurencniVyhodyComponent from "@/components/konkurencniVyhodyComponent";
 import ProductGridComponent from "@/components/productGridComponent";
 import WhereToBuyComponent from "@/components/whereToBuyComponent";
 
+import Footer from "@/components/footer";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -22,9 +24,9 @@ export default function RootLayout({ children }) {
         <Header />
         {/* <HeroComponent /> */}
         {/* <ProductGridComponent /> */}
-
         {children}
         <WhereToBuyComponent />
+        <Footer />
       </body>
     </html>
   );
