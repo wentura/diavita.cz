@@ -22,7 +22,7 @@ export default function NavComponent() {
         Kontakt
       </a>
       <a
-        href="#"
+        href="https://www.nerashop.cz/znacka/diavita/"
         className="text-md font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
       >
         NeraShop
