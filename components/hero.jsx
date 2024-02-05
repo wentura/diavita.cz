@@ -10,7 +10,7 @@ export default function HeroComponent() {
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48 items-center">
             <Logo klass="230" />
             <p className="max-w-md leading-relaxed text-gray-500 text-md lg:text-xl px-4">
-              Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel.
+              Tradiční český výrobce kosmetiky a potravinových doplňků
             </p>
           </div>
 

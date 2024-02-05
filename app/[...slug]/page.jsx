@@ -11,16 +11,24 @@ export default function Page({ params }) {
             {kategorie.title}
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <p
-            className="text-md py-4 max-w-full md:max-w-1/2 lg:max-w-2/3"
+            className="py-4 max-w-full md:max-w-1/2 lg:max-w-2/3"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(kategorie.text),
+            }}
+          ></p>
+        </div>
+        <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-12 justify-between">
+          <div
+            className="py-4 w-full md:w-2/3 flex flex-col gap-3"
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(kategorie.longText),
             }}
-          ></p>
+          ></div>
           <img
-            src={kategorie.image}
-            className="max-w-full md:max-w-1/2 lg:max-w-1/3 max-h-72 object-cover object-center"
+            src={kategorie.catImage}
+            className="max-w-full md:max-w-1/2 lg:max-w-1/3 max-h-96 object-cover object-center"
           />
         </div>
 
@@ -33,7 +41,7 @@ export default function Page({ params }) {
                   className="group relative mb-2 block overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
                 >
                   <img
-                    src={product.image[1]}
+                    src={product.image[0]}
                     loading="lazy"
                     alt={product.title}
                     className="h-full max-h-96"
