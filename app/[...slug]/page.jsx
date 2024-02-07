@@ -32,13 +32,13 @@ export default function Page({ params }) {
           />
         </div>
 
-        <div className="flex flex-wrap gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 justify-center">
+        <div className="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 items-center justify-items-center justify-center">
           {kategorie.products.map((product) => {
             return (
-              <div key={product.title}>
+              <div key={product.title} className="">
                 <a
                   href={`/produkty/${kategorie.id}/${product.id}`}
-                  className="group relative mb-2 block overflow-hidden rounded-lg bg-gray-100 lg:mb-3"
+                  className="group relative mb-2 block overflow-hidden rounded-lg lg:mb-3"
                 >
                   <img
                     src={product.image[0]}

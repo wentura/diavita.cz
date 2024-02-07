@@ -1,3 +1,4 @@
+import { isSupported, sanitize } from "isomorphic-dompurify";
 import React from "react";
 import { data } from "./data.js";
 const colors = ["#BE1326", "#8BBF38", "#23893B", "#1E1B1B"];
@@ -45,7 +46,13 @@ export default function ProductGridComponent() {
                   >
                     {category.title}
                   </a>
-                  <p>{category.text}</p>
+                  <p
+                    className="pb-8 font-light"
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(category.text),
+                    }}
+                  ></p>
+                  <p></p>
                 </div>
               </div>
             );
