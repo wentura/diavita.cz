@@ -7,7 +7,7 @@ export default function Page({ params }) {
     <div className="bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">
+          <h2 className="text-2xl font-bold text-gray-800 lg:text-5xl">
             {kategorie.title}
           </h2>
         </div>
@@ -26,19 +26,22 @@ export default function Page({ params }) {
               __html: DOMPurify.sanitize(kategorie.longText),
             }}
           ></div>
-          <img
+          {/* <img
             src={kategorie.catImage}
             className="max-w-full md:max-w-1/2 lg:max-w-1/3 max-h-96 object-cover object-center"
-          />
+          /> */}
         </div>
 
-        <div className="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 items-center justify-items-center justify-center">
+        <div className="grid gap-x-24 gap-y-24 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 items-center justify-items-center justify-center">
           {kategorie.products.map((product) => {
             return (
-              <div key={product.title} className="">
+              <div
+                key={product.title}
+                className="flex flex-col justify-center items-center mx-8 "
+              >
                 <a
                   href={`/produkty/${kategorie.id}/${product.id}`}
-                  className="group relative mb-2 block overflow-hidden rounded-lg lg:mb-3"
+                  className="group relative mb-2 block overflow-hidden lg:mb-3"
                 >
                   <img
                     src={product.image[0]}
@@ -51,7 +54,7 @@ export default function Page({ params }) {
                 <div className="text-center">
                   <a
                     href={`/produkty/${kategorie.id}/${product.id}`}
-                    className="hover:gray-800 mb-1 text-gray-500 transition duration-100 lg:text-lg"
+                    className="hover:text-gray-800 font-bold mb-1 text-gray-500 transition duration-100 lg:text-xl"
                   >
                     {product.title}
                   </a>

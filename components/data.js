@@ -8,7 +8,7 @@ export const data = [
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
     longText:
-      "<strong>Tradiční bylinné čaje podle původních receptur.</strong><br />Objevte všeobecně známé blahodárné účinky bylinek, které bylinné čaje skýtají a podpořte své zdraví s přírodními pomocníky jakou jsou například mateřídouška, heřmánek, fenykl, meduňka či levandule.",
+      "Objevte všeobecně známé blahodárné účinky bylinek, které bylinné čaje skýtají a podpořte své zdraví s přírodními pomocníky jakou jsou například mateřídouška, heřmánek, fenykl, meduňka či levandule.",
     catImage: "https://dummyimage.com/400x600/23893B.jpg?text=IMG%203",
     url: "/kategorie/caje",
     products: [
@@ -176,21 +176,21 @@ export const data = [
         longDesc:
           "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci</li><li>pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním</li><li>celkově podporuje regeneraci pokožky a zklidňuje ji</li><li>je ideální pro péči o suchou a citlivou pokožku</li><li>zlepšuje vzhled drsné a šupinaté kůže</li><li>pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst</li><li>chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti</li><li>je vhodná pro masáž drobných jizviček i celkové masáže</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
       },
+      // {
+      //   id: 2,
+      //   title: "Valinka AV Universal 100 ml",
+      //   image: [
+      //     "https://dummyimage.com/400x400.jpg",
+      //     "https://dummyimage.com/400x400.jpg",
+      //   ],
+      //   url: "/produkty/vazeliny/nejaka-vazelina",
+      //   subTitle: "100% bílá vazelína farmaceutické kvality.",
+      //   shortDesc: "<strong>strong ---</strong> ----shortDesc",
+      //   longDesc:
+      //     "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+      // },
       {
         id: 2,
-        title: "Valinka AV Universal 100 ml",
-        image: [
-          "https://dummyimage.com/400x400.jpg",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
-        subTitle: "100% bílá vazelína farmaceutické kvality.",
-        shortDesc: "<strong>strong ---</strong> ----shortDesc",
-        longDesc:
-          "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-      },
-      {
-        id: 3,
         title: "VALINKA konopná kosmetická vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/129_vazelina-valinka-konopna-kosmeticka-50ml_b4ynsp.webp",
@@ -204,7 +204,7 @@ export const data = [
           "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>příjemně zvláčňuje a zjemňuje pokožku, pomáhá zlepšovat její hydrataci</li><li>podporuje posílení přirozené ochranné kožní bariéry a tím i odolnost kůže vůči vnějším nepříznivým vlivům</li><li>obsahem esenciálních mastných kyselin konopného oleje pokožku zklidňuje, vyživuje a povzbuzuje její regeneraci</li><li>pravidelnou péčí zlepšuje celkový vzhled problematické, suché a citlivé pokožky</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
       },
       {
-        id: 4,
+        id: 3,
         title: "VALINKA rakytníková kosmetická vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
@@ -218,7 +218,7 @@ export const data = [
           "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zvláčňuje, zklidňuje a pomáhá regeneraci pokožky </li><li>obsahuje jedinečný rakytníkový olej bohatý na vitamíny a stopové prvky, je velmi bohatým zdrojem především vitamínu C, který blahodárně působí na dobrý stav pokožky</li><li>ideální pro péči o citlivou a problematickou pokožku</li><li>pomáhá popraskaným a citlivým koutkům, zklidňuje kůži po opalování, pečuje o pokožku po zhojených jizvičkách, omrzlinách nebo odřeninách</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
       },
       {
-        id: 5,
+        id: 4,
         title: "VALINKA žlutá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
@@ -238,41 +238,27 @@ export const data = [
     title: "Přírodní sladidla",
     shortTitle: "Sladidla",
     link: "prirodnisladidla",
-    text: "Tradiční bylinné čaje podle původních receptur.",
+    text: "Tradice a síla bylin v moderním balení",
     longText:
-      "lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur ",
+      "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
+    image:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
     catImage: "https://dummyimage.com/400x600/1E1B1B.jpg?text=IMG%204",
     url: "/kategorie/sladidla",
     products: [
       {
-        title: "Sladidla",
-        image: "https://dummyimage.com/400x400.jpg",
+        id: 0,
+        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
         url: "/produkty/vazeliny/nejaka-vazelina",
-      },
-      {
-        title: "Sladidla2",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
-      },
-      {
-        title: "Sladidla3",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
-      },
-      {
-        title: "Sladidla4",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
-      },
-      {
-        title: "Sladidla5",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
-      },
-      {
-        title: "Sladidla6",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "100% bílá vazelína farmaceutické kvality.",
+        shortDesc:
+          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
       },
     ],
   },
@@ -281,36 +267,85 @@ export const data = [
     title: "Bylinné sirupy",
     shortTitle: "Sirupy",
     link: "bylinnesirupy",
-    text: "Pirupy s jitrocelovým nebo mateřídouškovým extraktem",
     longText:
-      "lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur ",
+      "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
+
+    image:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
     catImage: "https://dummyimage.com/400x600/8BBF38.jpg?text=IMG%202",
     url: "/kategorie/sirupy",
     products: [
       {
-        title: "Sirupy",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        id: 0,
+        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        // url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "",
+        shortDesc:
+          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+        longDesc:
+          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání. Svým složení se sladidly je vhodný i pro diabetiky a osoby se sníženou tolerancí glukózy. Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br />Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10 % (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C – kyselina askorbová.</p >",
       },
       {
-        title: "Sirupy2",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        id: 1,
+        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C 250 g",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        // url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "",
+        shortDesc:
+          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+        longDesc:
+          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p >",
       },
       {
-        title: "Sirupy3",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        id: 2,
+        title:
+          "DIAVITA Jitrocel steviol bylinný sirup s vitamínem C bez cukru 225 g",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        // url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "",
+        shortDesc:
+          "Sirup s extraktem z jitrocele, vitamínem C a moderním sladidlem z rostliny stévie má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+        longDesc:
+          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Svým složením se sladidly je vhodný i pro diabetiky.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo steviolglykosidy, vitamín C - kyselina askorbová.</p >",
       },
       {
-        title: "Sirupy4",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        id: 3,
+        title: "DIAVITA Mateřídouška bylinný sirup s vitamínem C 250 g ",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        // url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "",
+        shortDesc:
+          "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
+        longDesc:
+          "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt mateřídoušky 10 % (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p >",
       },
       {
-        title: "Sirupy5",
-        image: "https://dummyimage.com/400x400.jpg",
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        id: 4,
+        title:
+          "DIAVITA Mateřídouška bylinný sirup s vitamínem C bez cukru 225 g",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        // url: "/produkty/vazeliny/nejaka-vazelina",
+        subTitle: "",
+        shortDesc:
+          "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
+        longDesc:
+          "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='pb-2'>Složení bez cukru s obsahem sladidel je vhodné i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt mateřídoušky 10% (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C - kyselina askorbová</p >",
       },
     ],
   },
