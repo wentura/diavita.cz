@@ -42,7 +42,15 @@ export default function Produkty({ params }) {
             />
           </div>
         </div>
-        <div></div>
+        <div className="text-center">
+          <a
+            className="border-2 border-lime-600 px-4 py-2 rounded-md mx-auto text-center shadow-lg bg-lime-50 font-bold transition duration-200 hover:shadow-sm"
+            href={product.url}
+            target="_blank"
+          >
+            {product.title} v NeraShop.cz
+          </a>
+        </div>
       </div>
     </div>
   );

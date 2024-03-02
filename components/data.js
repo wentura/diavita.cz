@@ -4,36 +4,24 @@ export const data = [
     title: "Bylinné čaje",
     shortTitle: "Čaje",
     link: "bylinnecaje",
-    text: "Tradiční bylinné čaje podle původních receptur.",
+    text: "Objevte všechny blahodárné účinky, které bylinné čaje skýtají a podpořte své zdraví s přírodními pomocníky jakou jsou například mateřídouška, heřmánek, fenykl, meduňka či levandule.",
     image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLipa_i3m177.webp",
     longText:
       "Objevte všeobecně známé blahodárné účinky bylinek, které bylinné čaje skýtají a podpořte své zdraví s přírodními pomocníky jakou jsou například mateřídouška, heřmánek, fenykl, meduňka či levandule.",
-    catImage: "https://dummyimage.com/400x600/23893B.jpg?text=IMG%203",
+    catImage:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLipa_i3m177.webp",
     url: "/kategorie/caje",
     products: [
-      // {
-      //   id: 0,
-      //   title: "Mateřídouškový čaj",
-      //   image: [
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouska_lkmv1i.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouskaSmiskou_ijrejf.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaMateridouska_aew6kb.webp",
-      //   ],
-      //   shortDesc: "<strong>strong ---</strong> ----shortDesc",
-      //   longDesc:
-      //     "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-      //   // url: "/produkt/1",
-      // },
       {
         id: 0,
         title: "Tymiánový čaj",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouska_lkmv1i.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouskaSmiskou_ijrejf.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaMateridouska_aew6kb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373155/diavita/caje/tymian1_gn8q5l.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373156/diavita/caje/tymian2_jlvqec.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373155/diavita/caje/tymian_xs1url.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/tymianovy-caj/",
         shortDesc:
           "Tymián (Thymus vulgaris) je silně aromatická středomořská bylina.  Tymián obsahuje silice, které mu dávají charakteristickou vůni, chuť a řadu léčivých účinků.",
         longDesc:
@@ -43,11 +31,11 @@ export const data = [
         id: 1,
         title: "Dobré trávení",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouska_lkmv1i.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouskaSmiskou_ijrejf.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaMateridouska_aew6kb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373153/diavita/caje/traveni1_fuilyo.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373154/diavita/caje/traveni2_xforsm.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373153/diavita/caje/traveni_blfdcl.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/dobre-traveni/",
         shortDesc:
           "Existuje mnoho bylin a rostlin, které se používají k podpoře dobrého. Čajová sypaná směs Dobré trávení obsahuje vyváženou kombinaci bylinek, které mají za cíl podpořit správné trávení. Po otevření sáčku ucítíte mátu, meduňku, heřmánek, fenykl, levanduli a lékořici.",
         longDesc:
@@ -57,11 +45,11 @@ export const data = [
         id: 2,
         title: "Meduňkový čaj",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouska_lkmv1i.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouskaSmiskou_ijrejf.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaMateridouska_aew6kb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373148/diavita/caje/medunka1_nuvflg.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373148/diavita/caje/medunka2_wu3o42.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373147/diavita/caje/medunka_u3msyi.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/medunkovy-caj/",
         shortDesc:
           "Meduňka lékařská (Melissa officinalis) je aromatická bylina, která se často používá jako koření nebo přísada do čajů a nápojů. Čaj z meduňky má příjemnou vůni, chuť a má mnoho zdravotních přínosů.",
         longDesc:
@@ -71,38 +59,25 @@ export const data = [
         id: 3,
         title: "Měsíčkový čaj",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouska_lkmv1i.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/materidouskaSmiskou_ijrejf.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaMateridouska_aew6kb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373150/diavita/caje/mesicek1_jo9bie.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373150/diavita/caje/mesicek2_ldc35j.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373149/diavita/caje/mesicek_eyfwd1.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/mesickovy-caj/",
         shortDesc:
           "Měsíček lékařský (Calendula officinalis) je bylina původem z jižní Evropy, ale je rozšířená po celém světě a bývá často používána v léčitelství.",
         longDesc:
           "<p class=''>Důvody, proč pít měsíčkový čaj:</p><ul class='list-inline pl-8 list-disc'><li>Měsíček lékařský obsahuje řadu účinných látek, díky nimž má protizánětlivé, hojivé a antiseptické účinky.</li><li>Pravidelné užívání bylinného čaje z měsíčku napomáhá k podpoře imunitního systému, zlepšení trávení, zmírnění menstruačních bolestí a podpoře spánku.</li><li>Květy měsíčku ve vaší koupeli zrelaxují svaly, zlepší cirkulaci krevního řečiště a tím napomáhají ke zmírnění bolesti.</li></ul><p class='py-2'>Čaj se dá snadno připravit zalitím jedné až dvou čajových lžiček sušeného měsíčku 250 ml vroucí vody a nechat louhovat 5-10 minut. Lze ho také ochutit medem, citronem nebo jinými přírodními sladidly podle chuti. Pijte 1-2 šálky denně.</p><p class='py-2'>Případné alergie konzultujte se svým lékařem.</p>",
       },
-      // {
-      //   id: 5,
-      //   title: "Levandulový čaj",
-      //   image: [
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levandule_mayiqc.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levanduleSmiskou_o7xyaw.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLevandule_roqafk.webp",
-      //   ],
-      //   url: "/produkty/vazeliny/nejaka-vazelina",
-      //   shortDesc: "<strong>strong ---</strong> ----shortDesc",
-      //   longDesc:
-      //     "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-      // },
       {
         id: 4,
         title: "Dobré dýchání",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levandule_mayiqc.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levanduleSmiskou_o7xyaw.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLevandule_roqafk.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373146/diavita/caje/dychani1_fpd4nt.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373147/diavita/caje/dychani2_pmq1wt.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373146/diavita/caje/dychani_t9zn6k.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/dobre-dychani/",
         shortDesc:
           "Existuje mnoho bylin a rostlin, které se používají k podpoře dobrého dýchání. Čajová sypaná směs Dobré dýchání obsahuje vyváženou kombinaci bylinek, které mají za cíl podpořit dýchání. Po otevření sáčku ucítíte mateřídoušku, lípu, heřmánek, proskurník a fenykl.",
         longDesc:
@@ -112,11 +87,11 @@ export const data = [
         id: 5,
         title: "Večerní pohoda",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levandule_mayiqc.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/levanduleSmiskou_o7xyaw.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLevandule_roqafk.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373151/diavita/caje/pohoda1_htadga.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373152/diavita/caje/pohoda2_uuihuf.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373151/diavita/caje/pohoda_ktn2tb.webp",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/vecerni-pohoda/",
         shortDesc:
           "Existuje mnoho bylin a rostlin, které se používají k podpoře zdravého spánku. Čajová sypaná směs Večerní pohoda obsahuje vyváženou kombinaci bylinek, které mají za cíl zklidnit vaše tělo, mysl a cítit se dobře. Po otevření sáčku ucítíte meduňku, chmel, mátu, bez černý, sléz, měsíček a levanduli.",
         longDesc:
@@ -139,23 +114,24 @@ export const data = [
   },
   {
     id: 1,
-    title: "Vazelínky VALINKA",
+    title: "Vazelínky Valinka",
     shortTitle: "Vazelíny",
     link: "vazelinyvalinka",
     text: "Představujeme vám řadu našich originálních vazelín <span class='font-semibold'>VALINKA</span>, kterou pro vás vyrábíme s maximální péčí a kvalitou v Pardubicích již od roku 1992.",
     longText:
       "<p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
-    catImage: "https://dummyimage.com/400x600/BE1326.jpg?text=IMG%201",
+    catImage:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706955174/diavita/vazeliny/valinkacista_oe1kux.webp",
     url: "/kategorie/vazeliny",
     products: [
       {
         id: 0,
-        title: "VALINKA čistá vazelína",
+        title: "Valinka čistá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/valinka-cista-vazelina/",
         subTitle: "100% bílá vazelína farmaceutické kvality.",
         shortDesc:
           "Univerzální přípravek pro péči nejen o suchou a citlivou pokožku s velmi dobrou tolerancí i u nejnáročnějších typů kůže.",
@@ -164,39 +140,26 @@ export const data = [
       },
       {
         id: 1,
-        title: "VALINKA kosmetická vazelína",
+        title: "Valinka kosmetická vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/123-1_vazelina-valinka-bila-kosmeticka-200ml_bmuroc.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/valinka-bila-kosmeticka-vazelina/",
         subTitle: "",
         shortDesc:
           "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
         longDesc:
           "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci</li><li>pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním</li><li>celkově podporuje regeneraci pokožky a zklidňuje ji</li><li>je ideální pro péči o suchou a citlivou pokožku</li><li>zlepšuje vzhled drsné a šupinaté kůže</li><li>pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst</li><li>chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti</li><li>je vhodná pro masáž drobných jizviček i celkové masáže</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
       },
-      // {
-      //   id: 2,
-      //   title: "Valinka AV Universal 100 ml",
-      //   image: [
-      //     "https://dummyimage.com/400x400.jpg",
-      //     "https://dummyimage.com/400x400.jpg",
-      //   ],
-      //   url: "/produkty/vazeliny/nejaka-vazelina",
-      //   subTitle: "100% bílá vazelína farmaceutické kvality.",
-      //   shortDesc: "<strong>strong ---</strong> ----shortDesc",
-      //   longDesc:
-      //     "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-      // },
       {
         id: 2,
-        title: "VALINKA konopná kosmetická vazelína",
+        title: "Valinka konopná kosmetická vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/129_vazelina-valinka-konopna-kosmeticka-50ml_b4ynsp.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/valinka-konopna-kosmeticka-vazelina/",
         subTitle: "",
         shortDesc:
           "Jedinečný přípravek řady VALINKA, který v sobě spojuje vlastnosti kosmetické vazelíny a konopného oleje pro zklidnění, výživu a regeneraci suché, citlivé, ekzematické, psoriatické a jinak náročné požadavky.",
@@ -205,12 +168,12 @@ export const data = [
       },
       {
         id: 3,
-        title: "VALINKA rakytníková kosmetická vazelína",
+        title: "Valinka rakytníková kosmetická vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/valinka-rakytnikova-kosmeticka-vazelina/",
         subTitle: "",
         shortDesc:
           "Jemná kosmetická vazelína s obsahem rakytníkového oleje pro regeneraci, zklidnění a zvláčení pokožky.",
@@ -219,12 +182,12 @@ export const data = [
       },
       {
         id: 4,
-        title: "VALINKA žlutá vazelína",
+        title: "Valinka žlutá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
         subTitle: "100% žlutá vazelína farmaceutické kvality.",
         shortDesc:
           "Univerzální přípravek s širokým využitím k promaštění, zvláčnění a ochraně suché a namáhané pokožky. Výborný základ pro výrobu domácí kosmetiky.",
@@ -233,56 +196,58 @@ export const data = [
       },
     ],
   },
+  // {
+  //   id: 2,
+  //   title: "Přírodní sladidla",
+  //   shortTitle: "Sladidla",
+  //   link: "prirodnisladidla",
+  //   text: "Tradice a síla bylin v moderním balení",
+  //   longText:
+  //     "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
+  //   image:
+  //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
+  //   catImage: "https://dummyimage.com/400x600/1E1B1B.jpg?text=IMG%204",
+  //   url: "/kategorie/sladidla",
+  //   products: [
+  //     {
+  //       id: 0,
+  //       title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
+  //       image: [
+  //         "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+  //         "https://dummyimage.com/400x400.jpg",
+  //       ],
+  //       url: "/produkty/vazeliny/nejaka-vazelina",
+  //       subTitle: "100% bílá vazelína farmaceutické kvality.",
+  //       shortDesc:
+  //         "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+  //       longDesc:
+  //         "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
+  //     },
+  //   ],
+  // },
   {
     id: 2,
-    title: "Přírodní sladidla",
-    shortTitle: "Sladidla",
-    link: "prirodnisladidla",
-    text: "Tradice a síla bylin v moderním balení",
-    longText:
-      "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
-    image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
-    catImage: "https://dummyimage.com/400x600/1E1B1B.jpg?text=IMG%204",
-    url: "/kategorie/sladidla",
-    products: [
-      {
-        id: 0,
-        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "/produkty/vazeliny/nejaka-vazelina",
-        subTitle: "100% bílá vazelína farmaceutické kvality.",
-        shortDesc:
-          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
-      },
-    ],
-  },
-  {
-    id: 3,
     title: "Bylinné sirupy",
     shortTitle: "Sirupy",
     link: "bylinnesirupy",
+    text: "Bylinné sirupy obsahují vitamín C, který pomáhá k normální funkci imunitního systému a přispívá ke snížení únavy.",
     longText:
       "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
 
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
-    catImage: "https://dummyimage.com/400x600/8BBF38.jpg?text=IMG%202",
+    catImage:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/141_jitrocel-bylinny-sirup_b6aigx.webp",
     url: "/kategorie/sirupy",
     products: [
       {
         id: 0,
-        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
+        title: "Jitrocel bylinný sirup bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/144_jitrocel-bylinny-sirup-bez-cukru_tkhy7t.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        // url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "",
         shortDesc:
           "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
@@ -291,12 +256,12 @@ export const data = [
       },
       {
         id: 1,
-        title: "DIAVITA Jitrocel bylinný sirup s vitamínem C 250 g",
+        title: "Jitrocel bylinný sirup",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/141_jitrocel-bylinny-sirup_b6aigx.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        // url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-250-g/",
         subTitle: "",
         shortDesc:
           "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
@@ -305,13 +270,12 @@ export const data = [
       },
       {
         id: 2,
-        title:
-          "DIAVITA Jitrocel steviol bylinný sirup s vitamínem C bez cukru 225 g",
+        title: "Jitrocel steviol bylinný sirup bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371815/diavita/sirupy/153_jitrocel-steviol-bylinny-sirup-bez-cukru_cgdwiv.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        // url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/diavita-jitrocel-steviol-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "",
         shortDesc:
           "Sirup s extraktem z jitrocele, vitamínem C a moderním sladidlem z rostliny stévie má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
@@ -320,12 +284,12 @@ export const data = [
       },
       {
         id: 3,
-        title: "DIAVITA Mateřídouška bylinný sirup s vitamínem C 250 g ",
+        title: "Mateřídouška bylinný sirup",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/135_materidouska-bylinny-sirup_nu8chs.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        // url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup/",
         subTitle: "",
         shortDesc:
           "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
@@ -334,13 +298,12 @@ export const data = [
       },
       {
         id: 4,
-        title:
-          "DIAVITA Mateřídouška bylinný sirup s vitamínem C bez cukru 225 g",
+        title: "Mateřídouška bylinný sirup bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/138_materidouska-bylinny-sirup-bez-cukru_tkyuh8.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
-        // url: "/produkty/vazeliny/nejaka-vazelina",
+        url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "",
         shortDesc:
           "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",

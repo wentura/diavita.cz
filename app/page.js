@@ -11,7 +11,7 @@ export default function Home() {
       <HeroComponent />
       <ProductGridComponent />
       <HeadignComponent />
-      <KonkurencniVyhodyComponent />
+      {/* <KonkurencniVyhodyComponent /> */}
       {/* <WhereToBuyComponent /> */}
     </main>
   );

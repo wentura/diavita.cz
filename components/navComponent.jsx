@@ -8,22 +8,22 @@ export default function NavComponent() {
           <a
             key={nav.shortTitle}
             href={`/${nav.link}/${nav.id}`}
-            className="text-md font-semibold text-indigo-500 hidden lg:flex"
+            className="text-md font-semibold text-gray-600 hidden lg:flex  transition duration-100 hover:text-lime-600"
           >
             {nav.shortTitle}
           </a>
         );
       })}
 
-      <a
+      {/* <a
         href="#"
-        className="text-md font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+        className="text-md font-semibold text-gray-600 transition duration-100 hover:text-lime-600"
       >
         Kontakt
-      </a>
+      </a> */}
       <a
         href="https://www.nerashop.cz/znacka/diavita/"
-        className="text-md font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+        className="text-md font-semibold text-gray-600 transition duration-100 hover:text-lime-600"
       >
         NeraShop
       </a>
