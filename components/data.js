@@ -239,7 +239,7 @@ export const data = [
     link: "sirupysladidla",
     text: "Tradiční sirupy Davita s obsahem kvalitních rostlinných extraktů a vitamínem C.<br />Sladidla pro zdravé slazení nápojů a pokrmů vhodné i pro diabetiky.",
     longText:
-      "<p>TRADICE A SÍLA BYLIN V MODERNÍM BALENÍ</p><p>Tradiční bylinné sirupy Diavita s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
+      "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C <i>pro podporu normální funkce dýchacího a imunitního systému</i>.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
 
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
@@ -249,7 +249,7 @@ export const data = [
     products: [
       {
         id: 0,
-        title: "Jitrocel bylinný sirup bez cukru",
+        title: "Jitrocel bylinný sirup s vitamínem C bez cukru",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/144_jitrocel-bylinny-sirup-bez-cukru_tkhy7t.webp",
           "https://dummyimage.com/400x400.jpg",
@@ -257,9 +257,9 @@ export const data = [
         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
         shortDesc:
-          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
         longDesc:
-          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání. Svým složení se sladidly je vhodný i pro diabetiky a osoby se sníženou tolerancí glukózy. Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br />Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10 % (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C – kyselina askorbová.</p >",
+          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Svým složení se sladidly je vhodný i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='pb-2 list-disc pl-5 flex flex-col gap-1 lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br />Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p ><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10 % (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C – kyselina askorbová.</p >",
       },
       {
         id: 1,
