@@ -11,14 +11,14 @@ export default function Page({ params }) {
             {kategorie.title}
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row gap-8">
+        {/* <div className="flex flex-col md:flex-row gap-8">
           <p
             className="py-4 max-w-full md:max-w-1/2 lg:max-w-2/3"
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(kategorie.text),
             }}
           ></p>
-        </div>
+        </div> */}
         <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-12 justify-between">
           <div
             className="py-4 w-full md:w-2/3 flex flex-col gap-3"
@@ -37,7 +37,7 @@ export default function Page({ params }) {
             return (
               <div
                 key={product.title}
-                className="flex flex-col justify-center items-center mx-8 "
+                className="relative flex flex-col justify-center items-center mx-8 "
               >
                 <a
                   href={`/produkty/${kategorie.id}/${product.id}`}
@@ -50,15 +50,21 @@ export default function Page({ params }) {
                     className="h-full max-h-96"
                   />
                 </a>
-
                 <div className="text-center">
                   <a
                     href={`/produkty/${kategorie.id}/${product.id}`}
                     className="hover:text-gray-800 font-bold mb-1 text-gray-500 transition duration-100 lg:text-xl"
                   >
                     {product.title}
+                    <br />
+                    {product.title2}
                   </a>
                 </div>
+                {!product.flag ? null : (
+                  <div className="absolute top-2 right-1 bg-red-200 p-2 rounded-md opacity-75">
+                    {product.flag}
+                  </div>
+                )}
               </div>
             );
           })}

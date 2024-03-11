@@ -11,12 +11,12 @@ export default function ProductGridComponent() {
             Diavita
           </h2>
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Myslete na své zdraví a objevte blahodárné účinky bylinek, které
-            pomáhají Vašemu tělu s různými zdravotními obtížemi.
+            Od roku 1992 pro Vás vyrábíme v Pardubicích s maximální péčí a
+            kvalitou přípravky plné přírodní síly bylin, výborná sladidla a
+            osvědčené kosmetické přípravky pro šetrnou péči a ochranu pokožky.
           </p>
           <p className="pt-4 mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Už naši předkové tyto účinky znali a hojně je využívali proti různým
-            onemocněním.
+            Přípravky Diavita koupíte v lékárnách a na vybraných e-shopech.
           </p>
         </div>
         <div className="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-3">
