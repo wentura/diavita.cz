@@ -1,4 +1,5 @@
 import Logo from "./logo";
+import Matomo from "./matomo";
 import NavComponent from "./navComponent";
 import SocialComponent from "./socialComponent";
 
@@ -33,6 +34,7 @@ export default function Footer() {
           vytvořil Zbyněk Svoboda
         </a>
       </div>
+      <Matomo />
     </footer>
   );
 }

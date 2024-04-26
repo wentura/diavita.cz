@@ -10,12 +10,12 @@ export default function ProductGridComponent() {
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
             Diavita
           </h2>
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+          <p className="mx-auto max-w-screen-md text-center p-text md:text-lg">
             Od roku 1992 pro Vás vyrábíme v Pardubicích s maximální péčí a
             kvalitou přípravky plné přírodní síly bylin, výborná sladidla a
             osvědčené kosmetické přípravky pro šetrnou péči a ochranu pokožky.
           </p>
-          <p className="pt-4 mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+          <p className="pt-4 mx-auto max-w-screen-md text-center p-text md:text-lg">
             Přípravky Diavita koupíte v lékárnách a na vybraných e-shopech.
           </p>
         </div>
@@ -28,25 +28,18 @@ export default function ProductGridComponent() {
               >
                 <a
                   href={`/${category.link}/${category.id}`}
-                  className="group relative mb-2 block h-80 w-80 overflow-hidden  lg:mb-3 mx-auto"
+                  className="group relative m-8 block h-80 w-80 overflow-hidden  lg:mb-3 mx-auto"
                 >
                   <img
                     src={category.catImage}
                     loading="lazy"
+                    width={300}
+                    height={300}
                     className="h-80 w-80  object-center "
                   />
-
-                  {/* <div className="absolute left-0 bottom-2 flex gap-2">
-                <span className="rounded-r-lg bg-red-500 px-3 py-1.5 text-sm font-semibold uppercase tracking-wider text-white">
-                  -50%
-                </span>
-                <span className="rounded-lg bg-white px-3 py-1.5 text-sm font-bold uppercase tracking-wider text-gray-800">
-                  New
-                </span>
-              </div> */}
                 </a>
 
-                <div className="flex flex-col items-center gap-2 px-2">
+                <div className="flex flex-col items-center gap-2 px-8">
                   <a
                     href={category.url}
                     className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
@@ -54,7 +47,7 @@ export default function ProductGridComponent() {
                     {category.title}
                   </a>
                   <p
-                    className="pb-8 font-light"
+                    className="pb-8 font-light p-text"
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(category.text),
                     }}

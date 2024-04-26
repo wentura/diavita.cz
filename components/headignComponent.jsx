@@ -15,7 +15,7 @@ export default function HeadignComponent() {
         <div className="flex justify-center">
           <Logo klass={300} />
         </div>
-        <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+        <p className="mx-auto max-w-screen-md text-center p-text md:text-lg">
           Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel
         </p>
       </div>

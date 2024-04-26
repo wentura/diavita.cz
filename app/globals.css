@@ -5,3 +5,6 @@
 body {
   font-size: 1.05rem;
 }
+.p-text {
+  @apply text-gray-700;
+}

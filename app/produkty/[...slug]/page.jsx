@@ -39,13 +39,14 @@ export default function Produkty({ params }) {
           <div className="w-full md:w-1/2">
             <img
               src={product.image[0]}
+              alt={product.title}
               className="max-h-96 md:max-h-[600px] object-cover object-center pt-4 mx-auto"
             />
           </div>
         </div>
         <div className="text-center">
           <a
-            className="border-2 border-lime-600 px-4 py-2 rounded-md mx-auto text-center shadow-lg bg-lime-50 font-bold transition duration-200 hover:shadow-sm"
+            className="border-2 border-lime-700 px-4 md:px-8 py-2 md:py-4 rounded-md mx-auto text-center shadow-xl bg-lime-50 font-bold transition duration-700 hover:shadow-sm"
             href={product.url}
             target="_blank"
           >

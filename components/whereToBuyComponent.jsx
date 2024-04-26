@@ -51,7 +51,7 @@ const logos = [
 ];
 export default function WhereToBuyComponent() {
   return (
-    <div className="bg-white py-8 md:py-12 lg:py-16">
+    <div className="bg-white py-8 md:py-12 lg:py-16 mt-12 md:mt-24">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-4 flex flex-col items-center md:mb-8 lg:flex-row lg:justify-between">
           <h2 className="mb-2 text-center text-2xl font-bold text-gray-800 lg:mb-0 lg:text-3xl">

@@ -9,7 +9,7 @@ export default function HeroComponent() {
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/2 lg:pb-24 lg:pt-48 items-center">
             <Logo klass="230" />
-            <p className="max-w-md leading-relaxed text-gray-500 text-md lg:text-xl px-4">
+            <p className="max-w-md leading-relaxed p-text text-md lg:text-xl px-4 text-center">
               Tradiční český výrobce kosmetiky a potravinových doplňků
             </p>
           </div>
@@ -19,8 +19,10 @@ export default function HeroComponent() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371071/diavita/ybpn681gqiledc4y0uhv-md_vzeoh5.webp"
                 loading="lazy"
-                // alt="Photo by Kaung Htet"
+                alt="Diavita, kosmetika"
                 className="h-full w-full object-cover object-center"
+                height={300}
+                width={400}
               />
             </div>
 
@@ -28,8 +30,10 @@ export default function HeroComponent() {
               <img
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371071/diavita/xw0zxabr25ittk7l5555-md_flsdyp.webp"
                 loading="lazy"
-                // alt="Photo by Manny Moreno"
+                alt="Diavita, čaje"
                 className="h-full w-full object-cover object-center"
+                height={300}
+                width={400}
               />
             </div>
           </div>

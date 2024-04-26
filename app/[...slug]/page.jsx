@@ -47,6 +47,8 @@ export default function Page({ params }) {
                     src={product.image[0]}
                     loading="lazy"
                     alt={product.title}
+                    width={200}
+                    height={300}
                     className="h-full max-h-96"
                   />
                 </a>
@@ -61,7 +63,7 @@ export default function Page({ params }) {
                   </a>
                 </div>
                 {!product.flag ? null : (
-                  <div className="absolute top-2 right-1 bg-red-200 p-2 rounded-md opacity-75">
+                  <div className="absolute top-1 right-0 bg-red-200 p-2 rounded-sm opacity-60 text-xs">
                     {product.flag}
                   </div>
                 )}
