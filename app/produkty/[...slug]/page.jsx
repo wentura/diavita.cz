@@ -10,7 +10,7 @@ export default function Produkty({ params }) {
       {/* technicky vypis, ktery zmizi - {k} / {p} */}
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl underline underline-offset-8">
+          <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl w-full text-center md:text-left">
             {product.title} {!product.title2 ? null : product.title2}
           </h2>
         </div>

@@ -5,7 +5,7 @@ import SocialComponent from "./socialComponent";
 
 export default function Header() {
   return (
-    <header className="py-2 border-b">
+    <header className="py-2 sticky top-0 bg-white z-10">
       <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-2 md:px-2">
         {/* logo - start */}
         <a
