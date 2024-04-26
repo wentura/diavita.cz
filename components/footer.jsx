@@ -25,8 +25,8 @@ export default function Footer() {
 
         {/* buttons - end */}
       </div>
-      <div className="mx-auto pt-4 w-full text-center">
-        Diavita & NeraShop.cz, 2024 &copy;{" "}
+      <div className="mx-auto pt-12 w-full text-center">
+        Diavita & NeraShop.cz, 2024 &copy; <br />
         <a
           className="text-xs underline-offset-4 hover:underline"
           href="https://www.zbyneksvoboda.cz"

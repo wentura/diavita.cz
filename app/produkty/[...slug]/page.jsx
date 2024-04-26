@@ -14,7 +14,7 @@ export default function Produkty({ params }) {
             {product.title} {!product.title2 ? null : product.title2}
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row mb-8 md:mb-24 gap-8 ">
+        <div className="flex flex-col-reverse md:flex-row mb-8 md:mb-24 gap-2 md:gap-8 ">
           <div className="w-full md:w-1/2">
             <p
               className="pb-8 font-light"

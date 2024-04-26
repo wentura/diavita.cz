@@ -63,7 +63,7 @@ export default function Page({ params }) {
                   </a>
                 </div>
                 {!product.flag ? null : (
-                  <div className="absolute top-1 right-0 bg-red-200 p-2 rounded-sm opacity-60 text-xs">
+                  <div className="absolute top-1 right-0 bg-red-200 p-2 rounded-sm bg-opacity-40 text-xs">
                     {product.flag}
                   </div>
                 )}

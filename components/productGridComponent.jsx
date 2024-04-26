@@ -42,7 +42,7 @@ export default function ProductGridComponent() {
                 <div className="flex flex-col items-center gap-2 px-8">
                   <a
                     href={category.url}
-                    className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+                    className="text-2xl md:text-xl font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
                   >
                     {category.title}
                   </a>
