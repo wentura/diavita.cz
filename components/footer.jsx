@@ -9,13 +9,15 @@ export default function Footer() {
     <footer className="py-12 mt-24 border-b">
       <div className="pb-16 pt-4 sm:pt-10 lg:pt-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-12 border-t pt-10 lg:grid-cols-5 lg:pt-12">
-            <div className="col-span-full lg:col-span-3">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-12 border-t pt-10 lg:grid-cols-5 lg:pt-12 justify-center">
+            <div className="col-span-full lg:col-span-3 flex flex-col items-center md:items-start">
               <Link href="/">
                 <Logo klass="120" />
               </Link>
-              <p className="p-text sm:pt-2">
-                Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel
+              <p className="p-text sm:pt-2 text-center md:text-left">
+                Tradiční český výrobce kosmetiky,
+                <br />
+                bylinných sirupů a sladidel
               </p>
             </div>
             {/* nav - start */}
