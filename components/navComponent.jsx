@@ -4,7 +4,7 @@ import { data } from "./data.js";
 export default function NavComponent({ klass }) {
   return (
     <nav
-      className={`gap-4 md:gap-x-8 md:gap-y-2 2xl:ml-16 flex ${klass}`}
+      className={`gap-4 md:gap-x-8 md:gap-y-2 2xl:ml-16 flex ${klass} items-end md:items-start`}
     >
       {data.map((nav) => {
         return (
