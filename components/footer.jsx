@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <footer className="py-12 mt-24 border-b">
       <div className="pb-16 pt-4 sm:pt-10 lg:pt-12">
-        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div className="grid md:grid-cols-2 gap-12 border-t pt-10 lg:grid-cols-5 lg:pt-12">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-12 border-t pt-10 lg:grid-cols-5 lg:pt-12">
             <div className="col-span-full lg:col-span-3">
               <Link href="/">
                 <Logo klass="120" />
@@ -19,46 +19,43 @@ export default function Footer() {
               </p>
             </div>
             {/* nav - start */}
-            <div>
-              {/* <div className="mb-4 font-bold uppercase tracking-widest text-gray-800">
-                  Products
-                </div> */}
-              <div className="flex flex-col gap-4 md:gap-x-8 md:gap-y-2 2xl:ml-16">
-                <div className="text-xs md:text-sm p-text flex ">
-                  NeraAgro, spol. s r.o.
-                </div>
-                <div className="text-xs md:text-sm p-text flex">
-                  Neratovice, ul. Práce 657
-                </div>
-                <div className="text-xs md:text-sm p-text flex">27711</div>
-                {/* <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+
+            <div className="flex flex-col gap-4 md:gap-x-8 md:gap-y-2 2xl:ml-16">
+              <div className="text-xs md:text-sm p-text flex ">
+                NeraAgro, spol. s r.o.
+              </div>
+              <div className="text-xs md:text-sm p-text flex">
+                Neratovice, ul. Práce 657
+              </div>
+              <div className="text-xs md:text-sm p-text flex">27711</div>
+              {/* <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
                   PSČ 27711,
                 </div> */}
-                <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
-                  <a href="https://www.nerashop.cz/" target="_blank">
-                    www.nerashop.cz
-                  </a>
-                </div>
-                <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
-                  <a href="mailto:eliska.klickova@nerashop.cz">
-                    eliska.klickova@nerashop.cz
-                  </a>
-                </div>
+              <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+                <a href="https://www.nerashop.cz/" target="_blank">
+                  www.nerashop.cz
+                </a>
+              </div>
+              <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+                <a href="mailto:eliska.klickova@nerashop.cz">
+                  eliska.klickova@nerashop.cz
+                </a>
               </div>
             </div>
+
             {/* nav - end */}
             {/* nav - start */}
             <div>
-              <NavComponent klass="flex-col" />
+              <NavComponent klass="flex-col items-end" />
             </div>
             {/* nav - end */}
           </div>
         </div>
       </div>
       <div className="">
-        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-8">
-            <span className="text-sm text-gray-400">
+            <span className="text-sm text-gray-400 justify-center text-center md:text-left">
               {" "}
               Diavita & NeraShop.cz, 2024 &copy; <br />
               <a
