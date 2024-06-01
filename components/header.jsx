@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./logo";
 import NavComponent from "./navComponent";
+import NavMobile from "./navMobile";
 import SocialComponent from "./socialComponent";
 export default function Header() {
   return (
@@ -13,7 +14,8 @@ export default function Header() {
         >
           <Logo />
         </a>
-        <NavComponent />
+        <NavComponent klass="hidden md:flex" />
+        <NavMobile klass="flex md:hidden" />
       </div>
     </header>
   );
