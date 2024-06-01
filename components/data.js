@@ -1,16 +1,107 @@
 export const data = [
   {
     id: 0,
+    title: "Vazelíny",
+    shortTitle: "Vazelíny",
+    link: "vazeliny",
+    text: "Pečující vazelíny VALINKA, aktivní masti, přípravky pro koupele a masáže.",
+    longText:
+      "<p>Řada našich <strong>originálních vazelín VALINKA</strong>, kterou již tradičně dodáváme na český trh a je ceněna pro své kvalitní jednoduché a účinné složení.</p><p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
+    catImage:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717230420/diavita/vazeliny/valinka_cista_1.png",
+    url: "/kategorie/kosmetika",
+    products: [
+      {
+        id: 0,
+        title: "Valinka",
+        title2: "čistá vazelína",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        url: "https://www.nerashop.cz/valinka-cista-vazelina/",
+        subTitle: "100% bílá vazelína farmaceutické kvality.",
+        shortDesc:
+          "Univerzální přípravek pro péči nejen o suchou a citlivou pokožku s velmi dobrou tolerancí i u nejnáročnějších typů kůže.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
+      },
+      {
+        id: 1,
+        title: "Valinka",
+        title2: "kosmetická vazelína",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/123-1_vazelina-valinka-bila-kosmeticka-200ml_bmuroc.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        url: "https://www.nerashop.cz/valinka-bila-kosmeticka-vazelina/",
+        subTitle: "",
+        shortDesc:
+          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci</li><li>pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním</li><li>celkově podporuje regeneraci pokožky a zklidňuje ji</li><li>je ideální pro péči o suchou a citlivou pokožku</li><li>zlepšuje vzhled drsné a šupinaté kůže</li><li>pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst</li><li>chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti</li><li>je vhodná pro masáž drobných jizviček i celkové masáže</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+      },
+      {
+        id: 2,
+        title: "Valinka",
+        title2: "konopná kosmetická vazelína",
+        flag: "ORIGINÁLNÍ receptura Diavita",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/129_vazelina-valinka-konopna-kosmeticka-50ml_b4ynsp.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        url: "https://www.nerashop.cz/valinka-konopna-kosmeticka-vazelina/",
+        subTitle: "",
+        shortDesc:
+          "Jedinečný přípravek řady VALINKA, který v sobě spojuje vlastnosti kosmetické vazelíny a konopného oleje pro zklidnění, výživu a regeneraci suché, citlivé, ekzematické, psoriatické a jinak náročné požadavky.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>příjemně zvláčňuje a zjemňuje pokožku, pomáhá zlepšovat její hydrataci</li><li>podporuje posílení přirozené ochranné kožní bariéry a tím i odolnost kůže vůči vnějším nepříznivým vlivům</li><li>obsahem esenciálních mastných kyselin konopného oleje pokožku zklidňuje, vyživuje a povzbuzuje její regeneraci</li><li>pravidelnou péčí zlepšuje celkový vzhled problematické, suché a citlivé pokožky</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+      },
+      {
+        id: 3,
+        title: "Valinka",
+        title2: "rakytníková kosmetická vazelína",
+        flag: "ORIGINÁLNÍ receptura Diavita",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        url: "https://www.nerashop.cz/valinka-rakytnikova-kosmeticka-vazelina/",
+        subTitle: "",
+        shortDesc:
+          "Jemná kosmetická vazelína s obsahem rakytníkového oleje pro regeneraci, zklidnění a zvláčení pokožky.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zvláčňuje, zklidňuje a pomáhá regeneraci pokožky </li><li>obsahuje jedinečný rakytníkový olej bohatý na vitamíny a stopové prvky, je velmi bohatým zdrojem především vitamínu C, který blahodárně působí na dobrý stav pokožky</li><li>ideální pro péči o citlivou a problematickou pokožku</li><li>pomáhá popraskaným a citlivým koutkům, zklidňuje kůži po opalování, pečuje o pokožku po zhojených jizvičkách, omrzlinách nebo odřeninách</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+      },
+      {
+        id: 4,
+        title: "Valinka",
+        title2: "žlutá vazelína",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
+          "https://dummyimage.com/400x400.jpg",
+        ],
+        url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
+        subTitle: "100% žlutá vazelína farmaceutické kvality.",
+        shortDesc:
+          "Univerzální přípravek s širokým využitím k promaštění, zvláčnění a ochraně suché a namáhané pokožky. Výborný základ pro výrobu domácí kosmetiky.",
+        longDesc:
+          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>promašťuje, zvláčňuje a ulevuje suché pokožce od nepříjemného napětí</li><li>zlepšuje hydrataci pokožky</li><li>na kůži vytváří ochrannou vrstvu proti působení větru, chladu, vody a mrazu</li><li>pomáhá změkčovat hrubou a tvrdou pokožku</li><li>ochraňuje a pečuje o kůži rukou u fyzicky pracujících</li><li>Valinka 100% žlutá vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
+      },
+    ],
+  },
+  {
+    id: 1,
     title: "Bylinné čaje",
     shortTitle: "Čaje",
     link: "bylinnecaje",
-    text: "Přírodní síla bylin pro Vaše zdraví a pohodu v každém balení čajů Diavita.<br />Jedno druhové čaje a směsi vysoké kvality.",
+    text: "Přírodní síla bylin pro Vaše zdraví a pohodu v každém balení čajů Diavita.",
     image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLipa_i3m177.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238636/diavita/vazeliny/medunka2.png",
     longText:
       "Objevte blahodárné účinky našich přírodních čajů a podpořte tak své zdraví a celkovou duševní i fyzickou pohodu organismu.",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLipa_i3m177.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238724/diavita/vazeliny/medunka2.png",
     url: "/kategorie/caje",
     products: [
       {
@@ -112,139 +203,20 @@ export const data = [
       // },
     ],
   },
-  {
-    id: 1,
-    title: "Kosmetika",
-    shortTitle: "Kosmetika",
-    link: "kosmetika",
-    text: "Pečující vazelíny řady VALINKA, aktivní masti, přípravky pro koupele a masáže.",
-    longText:
-      "<p>Řada našich originálních vazelín VALINKA, kterou již tradičně dodáváme na český trh a je ceněna pro své kvalitní jednoduché a účinné složení.</p><p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
-    catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706955174/diavita/vazeliny/valinkacista_oe1kux.webp",
-    url: "/kategorie/kosmetika",
-    products: [
-      {
-        id: 0,
-        title: "Valinka",
-        title2: "čistá vazelína",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "https://www.nerashop.cz/valinka-cista-vazelina/",
-        subTitle: "100% bílá vazelína farmaceutické kvality.",
-        shortDesc:
-          "Univerzální přípravek pro péči nejen o suchou a citlivou pokožku s velmi dobrou tolerancí i u nejnáročnějších typů kůže.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
-      },
-      {
-        id: 1,
-        title: "Valinka",
-        title2: "kosmetická vazelína",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/123-1_vazelina-valinka-bila-kosmeticka-200ml_bmuroc.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "https://www.nerashop.cz/valinka-bila-kosmeticka-vazelina/",
-        subTitle: "",
-        shortDesc:
-          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci</li><li>pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním</li><li>celkově podporuje regeneraci pokožky a zklidňuje ji</li><li>je ideální pro péči o suchou a citlivou pokožku</li><li>zlepšuje vzhled drsné a šupinaté kůže</li><li>pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst</li><li>chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti</li><li>je vhodná pro masáž drobných jizviček i celkové masáže</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
-      },
-      {
-        id: 2,
-        title: "Valinka",
-        title2: "konopná kosmetická vazelína",
-        flag: "ORIGINÁLNÍ receptura Diavita",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/129_vazelina-valinka-konopna-kosmeticka-50ml_b4ynsp.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "https://www.nerashop.cz/valinka-konopna-kosmeticka-vazelina/",
-        subTitle: "",
-        shortDesc:
-          "Jedinečný přípravek řady VALINKA, který v sobě spojuje vlastnosti kosmetické vazelíny a konopného oleje pro zklidnění, výživu a regeneraci suché, citlivé, ekzematické, psoriatické a jinak náročné požadavky.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>příjemně zvláčňuje a zjemňuje pokožku, pomáhá zlepšovat její hydrataci</li><li>podporuje posílení přirozené ochranné kožní bariéry a tím i odolnost kůže vůči vnějším nepříznivým vlivům</li><li>obsahem esenciálních mastných kyselin konopného oleje pokožku zklidňuje, vyživuje a povzbuzuje její regeneraci</li><li>pravidelnou péčí zlepšuje celkový vzhled problematické, suché a citlivé pokožky</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
-      },
-      {
-        id: 3,
-        title: "Valinka",
-        title2: "rakytníková kosmetická vazelína",
-        flag: "ORIGINÁLNÍ receptura Diavita",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "https://www.nerashop.cz/valinka-rakytnikova-kosmeticka-vazelina/",
-        subTitle: "",
-        shortDesc:
-          "Jemná kosmetická vazelína s obsahem rakytníkového oleje pro regeneraci, zklidnění a zvláčení pokožky.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>zvláčňuje, zklidňuje a pomáhá regeneraci pokožky </li><li>obsahuje jedinečný rakytníkový olej bohatý na vitamíny a stopové prvky, je velmi bohatým zdrojem především vitamínu C, který blahodárně působí na dobrý stav pokožky</li><li>ideální pro péči o citlivou a problematickou pokožku</li><li>pomáhá popraskaným a citlivým koutkům, zklidňuje kůži po opalování, pečuje o pokožku po zhojených jizvičkách, omrzlinách nebo odřeninách</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
-      },
-      {
-        id: 4,
-        title: "Valinka",
-        title2: "žlutá vazelína",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
-          "https://dummyimage.com/400x400.jpg",
-        ],
-        url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
-        subTitle: "100% žlutá vazelína farmaceutické kvality.",
-        shortDesc:
-          "Univerzální přípravek s širokým využitím k promaštění, zvláčnění a ochraně suché a namáhané pokožky. Výborný základ pro výrobu domácí kosmetiky.",
-        longDesc:
-          "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>promašťuje, zvláčňuje a ulevuje suché pokožce od nepříjemného napětí</li><li>zlepšuje hydrataci pokožky</li><li>na kůži vytváří ochrannou vrstvu proti působení větru, chladu, vody a mrazu</li><li>pomáhá změkčovat hrubou a tvrdou pokožku</li><li>ochraňuje a pečuje o kůži rukou u fyzicky pracujících</li><li>Valinka 100% žlutá vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
-      },
-    ],
-  },
-  // {
-  //   id: 2,
-  //   title: "Přírodní sladidla",
-  //   shortTitle: "Sladidla",
-  //   link: "prirodnisladidla",
-  //   text: "Tradice a síla bylin v moderním balení",
-  //   longText:
-  //     "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C pro podporu normální funkce dýchacího a imunitního systému.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
-  //   image:
-  //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
-  //   catImage: "https://dummyimage.com/400x600/1E1B1B.jpg?text=IMG%204",
-  //   url: "/kategorie/sladidla",
-  //   products: [
-  //     {
-  //       id: 0,
-  //       title: "DIAVITA Jitrocel bylinný sirup s vitamínem C bez cukru 225 g",
-  //       image: [
-  //         "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
-  //         "https://dummyimage.com/400x400.jpg",
-  //       ],
-  //       url: "/produkty/vazeliny/nejaka-vazelina",
-  //       subTitle: "100% bílá vazelína farmaceutické kvality.",
-  //       shortDesc:
-  //         "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
-  //       longDesc:
-  //         "<p class='font-extrabold pb-2'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='list-disc pl-5 flex flex-col gap-1 lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
-  //     },
-  //   ],
-  // },
+
   {
     id: 2,
     title: "Bilinné sirupy a sladidla",
     shortTitle: "Sirupy a sladidla",
     link: "sirupysladidla",
-    text: "Tradiční sirupy Davita s obsahem kvalitních rostlinných extraktů a vitamínem C.<br />Sladidla pro zdravé slazení nápojů a pokrmů vhodné i pro diabetiky.",
+    text: "Sladidla pro zdravé slazení nápojů a pokrmů vhodné i pro diabetiky.",
     longText:
       "<p>Vyrábíme pro vás tradiční bylinné sirupy s extraktem z jitrocele a mateřídoušky obohacené vitamínem C <i>pro podporu normální funkce dýchacího a imunitního systému</i>.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p>",
 
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/141_jitrocel-bylinny-sirup_b6aigx.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238831/diavita/vazeliny/jitrocel_sirup2.png",
     url: "/kategorie/sirupysladidla",
     products: [
       {

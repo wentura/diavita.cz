@@ -8,3 +8,6 @@ body {
 .p-text {
   @apply text-gray-700;
 }
+.p-hover {
+  @apply text-lime-600;
+}

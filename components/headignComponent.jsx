@@ -13,7 +13,7 @@ export default function HeadignComponent() {
           Diavita
         </h2> */}
         <div className="flex justify-center">
-          <Logo klass={300} />
+          <Logo klass={275} />
         </div>
         <p className="mx-auto max-w-screen-md text-center p-text md:text-lg">
           Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel

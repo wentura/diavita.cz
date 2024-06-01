@@ -8,6 +8,7 @@ function Icon({ klass }) {
       height={klass ? klass : 50}
       version="1.1"
       viewBox="0 0 87.714 68.86"
+      // className="w-52 md:w-auto"
     >
       <g transform="translate(-15.291 -114.07)">
         <g transform="matrix(.35278 0 0 -.35278 -180.793 348.4)">

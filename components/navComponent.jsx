@@ -8,7 +8,7 @@ export default function NavComponent() {
           <a
             key={nav.shortTitle}
             href={`/${nav.link}/${nav.id}`}
-            className="text-xs md:text-sm font-semibold text-gray-600 flex  transition duration-100 hover:text-lime-600"
+            className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600"
           >
             {nav.shortTitle}
           </a>
@@ -23,7 +23,7 @@ export default function NavComponent() {
       </a> */}
       <a
         href="https://www.nerashop.cz/znacka/diavita/"
-        className="hidden md:block text-sm font-semibold text-gray-600 transition duration-100 hover:text-lime-600 "
+        className="hidden md:block text-sm font-semibold p-text transition duration-100 hover:p-hover"
       >
         NeraShop
       </a>

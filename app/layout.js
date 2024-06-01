@@ -20,10 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-sans text-lg">
+      <body className="font-sans text-lg w-screen mx-auto">
         <Header />
-        {/* <HeroComponent /> */}
-        {/* <ProductGridComponent /> */}
         {children}
         <WhereToBuyComponent />
         <Footer />
