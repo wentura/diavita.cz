@@ -27,7 +27,9 @@ export default function Footer() {
                 NeraAgro, spol. s r.o.
               </div>
               <div className="text-xs md:text-sm p-text flex">
-                Neratovice, ul. Práce 657
+                ul. Práce 657
+                <br />
+                Neratovice
               </div>
               <div className="text-xs md:text-sm p-text flex">27711</div>
               {/* <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">

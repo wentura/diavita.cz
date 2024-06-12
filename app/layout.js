@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Diavita",
-  description: "Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel.",
+  description: "Tradiční český výrobce vazelíny, bylinných sirupů a sladidel.",
 };
 
 export default function RootLayout({ children }) {
