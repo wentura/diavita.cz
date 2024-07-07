@@ -1,15 +1,13 @@
-import React from "react";
-
 export default function ButtonsComponent() {
   return (
-    <div className="flex divide-x border-r sm:border-l">
+    <div className="flex border-r divide-x sm:border-l">
       <a
         href="#"
         className="hidden h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-gray-100 active:bg-gray-200 sm:flex sm:h-20 sm:w-20 md:h-24 md:w-24"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-gray-800"
+          className="w-6 h-6 text-gray-800"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -33,7 +31,7 @@ export default function ButtonsComponent() {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-gray-800"
+          className="w-6 h-6 text-gray-800"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -57,7 +55,7 @@ export default function ButtonsComponent() {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-gray-800"
+          className="w-6 h-6 text-gray-800"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -81,7 +79,7 @@ export default function ButtonsComponent() {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-gray-800"
+          className="w-6 h-6 text-gray-800"
           viewBox="0 0 20 20"
           fill="currentColor"
         >

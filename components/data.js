@@ -188,22 +188,8 @@ export const data = [
         longDesc:
           "<ul class='pl-4'><li><strong>Levandule</strong> – má uklidňující a relaxační účinky, které mohou pomoci snížit úzkost, stres a usnadnit usínání.</li><li><strong>Máta</strong> – podporuje činnost trávícího traktu, posiluje přirozenou obranyschopnost, napomáhá relaxaci a spánku.</li><li><strong>Meduňka</strong> – svými relaxačními účinky napomáhá ke snížení úzkosti a stresu. </li><li><strong>Chmel</strong> – působí sedativně, navozuje spánek, tlumí předrážděnost.</li><li><strong>Bez černý</strong> – je lékem na choroby z prochladnutí. Vyvolává pocení, čistí zahleněné průdušky a má uklidňující a relaxační účinky.</li><li><strong>Sléz</strong> – má protizánětlivé účinky, napomáhá k odstranění chrapotu.</li><li><strong>Měsíček</strong> – podporuje imunitní systém, zlepšení trávení, zmírnění menstruačních bolestí.</li></ul><p class='py-2'>Čaj se dá snadno připravit zalitím jedné až dvou čajových lžiček směsi 250 ml vroucí vody a nechat louhovat 5-10 minut. Lze ho také ochutit medem, citronem nebo jinými přírodními sladidly podle chuti. Pijte 1-2 šálky denně.</p><p class='py-2'>Případné alergie konzultujte se svým lékařem.</p>",
       },
-      // {
-      //   id: 8,
-      //   title: "Lipový čaj",
-      //   image: [
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/lipa_pg99pg.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/lipaSmiskou_zxg9mv.webp",
-      //     "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744089/diavita/caje/miskaLipa_i3m177.webp",
-      //   ],
-      //   url: "/produkty/vazeliny/nejaka-vazelina",
-      //   shortDesc: "<strong>strong ---</strong> ----shortDesc",
-      //   longDesc:
-      //     "<strong>Lorem, ipsum.</strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-      // },
     ],
   },
-
   {
     id: 2,
     title: "Bilinné sirupy a sladidla",

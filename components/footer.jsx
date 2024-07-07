@@ -2,19 +2,17 @@ import Link from "next/link";
 import Logo from "./logo";
 import Matomo from "./matomo";
 import NavComponent from "./navComponent";
-import SocialComponent from "./socialComponent";
-
 export default function Footer() {
   return (
     <footer className="py-12 mt-24 border-b">
-      <div className="pb-16 pt-4 sm:pt-10 lg:pt-12">
-        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-12 border-t pt-10 lg:grid-cols-5 lg:pt-12 justify-center">
-            <div className="col-span-full lg:col-span-3 flex flex-col items-center md:items-start">
+      <div className="pt-4 pb-16 sm:pt-10 lg:pt-12">
+        <div className="max-w-screen-xl px-4 mx-auto md:px-8">
+          <div className="grid justify-center grid-cols-2 gap-12 pt-10 border-t md:grid-cols-2 lg:grid-cols-5 lg:pt-12">
+            <div className="flex flex-col items-center col-span-full lg:col-span-3 md:items-start">
               <Link href="/">
                 <Logo klass="120" />
               </Link>
-              <p className="p-text sm:pt-2 text-center md:text-left">
+              <p className="text-center p-text sm:pt-2 md:text-left">
                 Tradiční český výrobce kosmetiky,
                 <br />
                 bylinných sirupů a sladidel
@@ -23,43 +21,39 @@ export default function Footer() {
             {/* nav - start */}
 
             <div className="flex flex-col gap-4 md:gap-x-8 md:gap-y-2 2xl:ml-16">
-              <div className="text-xs md:text-sm p-text flex ">
+              <div className="flex text-xs md:text-sm p-text ">
                 NeraAgro, spol. s r.o.
               </div>
-              <div className="text-xs md:text-sm p-text flex">
+              <div className="flex text-xs md:text-sm p-text">
                 ul. Práce 657
                 <br />
                 Neratovice
               </div>
-              <div className="text-xs md:text-sm p-text flex">27711</div>
-              {/* <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+              <div className="flex text-xs md:text-sm p-text">27711</div>
+              {/* <div className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600">
                   PSČ 27711,
                 </div> */}
-              <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+              <div className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600">
                 <a href="https://www.nerashop.cz/" target="_blank">
                   www.nerashop.cz
                 </a>
               </div>
-              <div className="text-xs md:text-sm p-text flex transition duration-100 hover:text-lime-600">
+              <div className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600">
                 <a href="mailto:eliska.klickova@nerashop.cz">
                   eliska.klickova@nerashop.cz
                 </a>
               </div>
             </div>
-
-            {/* nav - end */}
-            {/* nav - start */}
             <div>
               <NavComponent klass="flex-col items-end" />
             </div>
-            {/* nav - end */}
           </div>
         </div>
       </div>
       <div className="">
-        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-8">
-            <span className="text-sm text-gray-400 justify-center text-center md:text-left">
+        <div className="max-w-screen-xl px-4 mx-auto md:px-8">
+          <div className="flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
+            <span className="justify-center text-sm text-center text-gray-400 md:text-left">
               {" "}
               Diavita & NeraShop.cz, 2024 &copy; <br />
               <a
@@ -70,14 +64,14 @@ export default function Footer() {
               </a>
             </span>
             {/* social - start */}
-            <div className="flex gap-4 items-center">
+            <div className="flex items-center gap-4">
               <a
                 href="https://www.instagram.com/nerashop.cz/"
                 target="_blank"
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  className="h-5 w-5"
+                  className="w-5 h-5"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
@@ -94,7 +88,7 @@ export default function Footer() {
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   width={34}
                   height={34}
                   viewBox="0 0 24 24"
@@ -110,8 +104,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-screen-xl items-center justify-between px-2 md:px-2"></div>
-      <div className="mx-auto pt-12 w-full text-center text-md"></div>
+      <div className="flex items-center justify-between max-w-screen-xl px-2 mx-auto md:px-2"></div>
+      <div className="w-full pt-12 mx-auto text-center text-md"></div>
       <Matomo />
     </footer>
   );
