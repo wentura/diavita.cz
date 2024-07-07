@@ -106,7 +106,7 @@ export default function Footer() {
 
       <div className="flex items-center justify-between max-w-screen-xl px-2 mx-auto md:px-2"></div>
       <div className="w-full pt-12 mx-auto text-center text-md"></div>
-      <Matomo />
+      {/* <Matomo /> */}
     </footer>
   );
 }
