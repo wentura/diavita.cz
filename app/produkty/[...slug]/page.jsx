@@ -1,9 +1,15 @@
+// "use client";
+// import DOMPurify from "dompurify";
+import DOMPurify from "isomorphic-dompurify";
 import { data } from "/components/data.js";
 export default function Produkty({ params }) {
   const k = params.slug[0];
   const p = params.slug[1];
   const kategorie = data[k];
   const product = data[k].products[p];
+  // const resSubTitle = { __html: DOMPurify.sanitize(product.subTitle) };
+  // const resShortDesc = { __html: DOMPurify.sanitize(product.shortDesc) };
+  // const resLongDesc = { __html: DOMPurify.sanitize(product.longDesc) };
   return (
     <div className="py-6 bg-white sm:py-8 lg:py-12">
       {/* technicky vypis, ktery zmizi - {k} / {p} */}
@@ -15,19 +21,21 @@ export default function Produkty({ params }) {
         </div>
         <div className="flex flex-col-reverse gap-2 mb-8 md:flex-row md:mb-24 md:gap-8 ">
           <div className="w-full md:w-1/2">
-            <p
+            <div
               className="pb-8 font-light"
               dangerouslySetInnerHTML={{
-                __html: product.subTitle,
+                __html: DOMPurify.sanitize(product.subTitle),
+                // resSubTitle,
               }}
-            ></p>
+            ></div>
             {!product.flag ? null : <div className="py-2">{product.flag}</div>}
-            <p
+            <div
               className="py-2"
               dangerouslySetInnerHTML={{
-                __html: product.shortDesc,
+                __html: DOMPurify.sanitize(product.shortDesc),
+                // resShortDesc,
               }}
-            ></p>
+            ></div>
             <div className="block px-4 py-2 mx-auto my-12 font-bold text-center transition ease-in-out border-2 rounded-md shadow-lg md:hidden border-lime-700 md:px-8 md:py-4 w-72 md:w-96 bg-lime-50 hover:scale-105 hover:duration-700 hover:shadow-2xl">
               <a className="" href={product.url} target="_blank">
                 koupit v NeraShop.cz
@@ -36,7 +44,8 @@ export default function Produkty({ params }) {
             <div
               className="py-4 "
               dangerouslySetInnerHTML={{
-                __html: product.longDesc,
+                __html: DOMPurify.sanitize(product.longDesc),
+                // resLongDesc,
               }}
             ></div>
           </div>

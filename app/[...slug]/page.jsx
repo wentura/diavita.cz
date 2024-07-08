@@ -1,3 +1,5 @@
+import DOMPurify from "isomorphic-dompurify";
+
 import Link from "next/link";
 import { data } from "/components/data.js";
 export default function Page({ params }) {
@@ -14,7 +16,7 @@ export default function Page({ params }) {
           <div
             className="flex flex-col w-full gap-3 py-4"
             dangerouslySetInnerHTML={{
-              __html: kategorie.longText,
+              __html: DOMPurify.sanitize(kategorie.longText),
             }}
           ></div>
         </div>
