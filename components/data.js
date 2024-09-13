@@ -8,7 +8,7 @@ export const data = [
     longText:
       "<p>Řada našich <strong>originálních vazelín VALINKA</strong>, kterou již tradičně dodáváme na český trh a je ceněna pro své kvalitní jednoduché a účinné složení.</p><p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726218283/diavita/nove/vazeliny/kolaz_bila.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236536/diavita/nove/vazeliny/kolaz_bilapng.webp",
     url: "/kategorie/kosmetika",
     products: [
       {
