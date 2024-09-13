@@ -54,7 +54,7 @@ export default function WhereToBuyComponent() {
     <div className="py-8 mt-12 bg-white md:py-12 lg:py-16 md:mt-24">
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="flex flex-col items-center mb-4 md:mb-8 lg:flex-row lg:justify-between">
-          <h2 className="mb-2 text-2xl font-bold text-center text-gray-800 lg:mb-0 lg:text-3xl">
+          <h2 className="mb-2 text-2xl tracking-tight text-center text-gray-800 lg:mb-0 lg:text-3xl montserrat-900">
             produkty DIAVITA najdete u...
           </h2>
         </div>

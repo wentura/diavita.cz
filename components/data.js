@@ -8,7 +8,7 @@ export const data = [
     longText:
       "<p>Řada našich <strong>originálních vazelín VALINKA</strong>, kterou již tradičně dodáváme na český trh a je ceněna pro své kvalitní jednoduché a účinné složení.</p><p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717230420/diavita/vazeliny/valinka_cista_1.png",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726218283/diavita/nove/vazeliny/kolaz_bila.webp",
     url: "/kategorie/kosmetika",
     products: [
       {
@@ -16,11 +16,19 @@ export const data = [
         title: "Valinka",
         title2: "čistá vazelína",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/117_vazelina-valinka-cista-50ml-uv_tt7rqb.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_cistapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236534/diavita/nove/vazeliny/kolaz_cista.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236548/diavita/nove/vazeliny/pasta_ciraa.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236551/diavita/nove/vazeliny/pasta_cista_venku1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236542/diavita/nove/vazeliny/nahled.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236532/diavita/nove/vazeliny/cista_vne1.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236523/diavita/nove/vazeliny/200ml_cista_vne1.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236514/diavita/nove/vazeliny/1l_cistapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236515/diavita/nove/vazeliny/3kg_cistapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_cistapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-cista-vazelina/",
-        subTitle: "100% bílá vazelína farmaceutické kvality.",
+        subTitle: "100% čistá vazelína farmaceutické kvality.",
         shortDesc:
           "Univerzální přípravek pro péči nejen o suchou a citlivou pokožku s velmi dobrou tolerancí i u nejnáročnějších typů kůže.",
         longDesc:
@@ -29,13 +37,19 @@ export const data = [
       {
         id: 1,
         title: "Valinka",
-        title2: "kosmetická vazelína",
+        title2: "bílá vazelína",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129628/diavita/vazeliny/zEshopu/123-1_vazelina-valinka-bila-kosmeticka-200ml_bmuroc.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236522/diavita/nove/vazeliny/200ml_bilapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236536/diavita/nove/vazeliny/kolaz_bilapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236554/diavita/nove/vazeliny/pasta_pruhledpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236545/diavita/nove/vazeliny/pasta_bila_venku1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236522/diavita/nove/vazeliny/50ml_cista_vne1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236514/diavita/nove/vazeliny/1l_bilapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236515/diavita/nove/vazeliny/3kg_bilapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236520/diavita/nove/vazeliny/5kg_bilapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-bila-kosmeticka-vazelina/",
-        subTitle: "",
+        subTitle: "100% bílá vazelína farmaceutické kvality.",
         shortDesc:
           "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
         longDesc:
@@ -44,11 +58,11 @@ export const data = [
       {
         id: 2,
         title: "Valinka",
-        title2: "konopná kosmetická vazelína",
+        title2: "konopná vazelína",
         flag: "ORIGINÁLNÍ receptura Diavita",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/129_vazelina-valinka-konopna-kosmeticka-50ml_b4ynsp.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236521/diavita/nove/vazeliny/50ml_konopna.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236542/diavita/nove/vazeliny/konopi_vne1png.webp",
         ],
         url: "https://www.nerashop.cz/valinka-konopna-kosmeticka-vazelina/",
         subTitle: "",
@@ -60,11 +74,11 @@ export const data = [
       {
         id: 3,
         title: "Valinka",
-        title2: "rakytníková kosmetická vazelína",
+        title2: "rakytníková vazelína",
         flag: "ORIGINÁLNÍ receptura Diavita",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236556/diavita/nove/vazeliny/rakytnik_vne1png.webp",
         ],
         url: "https://www.nerashop.cz/valinka-rakytnikova-kosmeticka-vazelina/",
         subTitle: "",
@@ -78,8 +92,11 @@ export const data = [
         title: "Valinka",
         title2: "žlutá vazelína",
         image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
         subTitle: "100% žlutá vazelína farmaceutické kvality.",
@@ -99,18 +116,21 @@ export const data = [
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238636/diavita/vazeliny/medunka2.png",
     longText:
-      "Objevte blahodárné účinky našich přírodních čajů a podpořte tak své zdraví a celkovou duševní i fyzickou pohodu organismu.",
+      "Objevte blahodárné účinky našich přírodních čajů a podpořte tak své zdraví a celkovou duševní i fyzickou pohodu organismu.<img src='https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236584/diavita/nove/caje/caje_pytlik_kolaz.webp' />",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238724/diavita/vazeliny/medunka2.png",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236589/diavita/nove/caje/dobre_traveni_setpng.webp",
     url: "/kategorie/caje",
     products: [
       {
         id: 0,
         title: "Tymiánový čaj",
+        title2: "Tymiánový čaj",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373155/diavita/caje/tymian1_gn8q5l.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373156/diavita/caje/tymian2_jlvqec.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373155/diavita/caje/tymian_xs1url.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236656/diavita/nove/caje/tymian_setpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236653/diavita/nove/caje/tymian_pytlikpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236650/diavita/nove/caje/tymian_miskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236648/diavita/nove/caje/tymian_hrnekpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236646/diavita/nove/caje/tymian_caj.webp",
         ],
         url: "https://www.nerashop.cz/tymianovy-caj/",
         shortDesc:
@@ -121,10 +141,13 @@ export const data = [
       {
         id: 1,
         title: "Dobré trávení",
+        title2: "Dobré trávení",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373153/diavita/caje/traveni1_fuilyo.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373154/diavita/caje/traveni2_xforsm.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373153/diavita/caje/traveni_blfdcl.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236589/diavita/nove/caje/dobre_traveni_setpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236590/diavita/nove/caje/dobre_travenipng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236588/diavita/nove/caje/dobre_traveni_miskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236586/diavita/nove/caje/dobre_traveni_hrnekpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236585/diavita/nove/caje/dobre_traveni_caj.webp",
         ],
         url: "https://www.nerashop.cz/dobre-traveni/",
         shortDesc:
@@ -135,10 +158,13 @@ export const data = [
       {
         id: 2,
         title: "Meduňkový čaj",
+        title2: "Meduňkový čaj",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373148/diavita/caje/medunka1_nuvflg.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373148/diavita/caje/medunka2_wu3o42.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373147/diavita/caje/medunka_u3msyi.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236634/diavita/nove/caje/medunka_setpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236636/diavita/nove/caje/medunkapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236631/diavita/nove/caje/medunka_hrnekpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236630/diavita/nove/caje/medunka_miskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236628/diavita/nove/caje/medunka_caj.webp",
         ],
         url: "https://www.nerashop.cz/medunkovy-caj/",
         shortDesc:
@@ -149,8 +175,9 @@ export const data = [
       {
         id: 3,
         title: "Měsíčkový čaj",
+        title2: "NEBYL NA FOTCE",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373150/diavita/caje/mesicek1_jo9bie.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236616/diavita/nove/caje/levandule_setpng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373150/diavita/caje/mesicek2_ldc35j.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373149/diavita/caje/mesicek_eyfwd1.webp",
         ],
@@ -163,10 +190,13 @@ export const data = [
       {
         id: 4,
         title: "Dobré dýchání",
+        title2: "Dobré dýchání",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373146/diavita/caje/dychani1_fpd4nt.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373147/diavita/caje/dychani2_pmq1wt.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373146/diavita/caje/dychani_t9zn6k.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236598/diavita/nove/caje/dobredychani_setpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236596/diavita/nove/caje/dobredychani_pytlikpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236593/diavita/nove/caje/dobredychani_hrnekpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236595/diavita/nove/caje/dobredychani_miskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236591/diavita/nove/caje/dobredychani_caj.webp",
         ],
         url: "https://www.nerashop.cz/dobre-dychani/",
         shortDesc:
@@ -177,10 +207,13 @@ export const data = [
       {
         id: 5,
         title: "Večerní pohoda",
+        title2: "Večerní pohoda",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373151/diavita/caje/pohoda1_htadga.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373152/diavita/caje/pohoda2_uuihuf.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709373151/diavita/caje/pohoda_ktn2tb.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236658/diavita/nove/caje/vecerni_pohoda_setpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236665/diavita/nove/caje/vecernipohoda_pytlikpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236661/diavita/nove/caje/vecernipohoda_hrnekpng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236663/diavita/nove/caje/vecernipohoda_miskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236659/diavita/nove/caje/vecernipohoda_caj.webp",
         ],
         url: "https://www.nerashop.cz/vecerni-pohoda/",
         shortDesc:
@@ -192,7 +225,8 @@ export const data = [
   },
   {
     id: 2,
-    title: "Bilinné sirupy a sladidla",
+    // title: "Bylinné sirupy a sladidla",
+    title: "Sirupy a sladidla",
     shortTitle: "Sirupy a sladidla",
     link: "sirupysladidla",
     text: "Sladidla pro zdravé slazení nápojů a pokrmů vhodné i pro diabetiky.",
@@ -202,14 +236,15 @@ export const data = [
     image:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
     catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1717238831/diavita/vazeliny/jitrocel_sirup2.png",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
     url: "/kategorie/sirupysladidla",
     products: [
       {
         id: 0,
         title: "Jitrocel bylinný sirup s vitamínem C bez cukru",
+        title2: "Jitrocel bylinný sirup s vitamínem C bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/144_jitrocel-bylinny-sirup-bez-cukru_tkhy7t.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240099/diavita/nove/sirupy/jitrocel_bez_cukrupng.webp",
           "https://dummyimage.com/400x400.jpg",
         ],
         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
@@ -222,9 +257,10 @@ export const data = [
       {
         id: 1,
         title: "Jitrocel bylinný sirup",
+        title2: "Jitrocel bylinný sirup",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/141_jitrocel-bylinny-sirup_b6aigx.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240100/diavita/nove/sirupy/jitrocel_png.webp",
         ],
         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-250-g/",
         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
@@ -236,6 +272,7 @@ export const data = [
       {
         id: 2,
         title: "Jitrocel steviol bylinný sirup bez cukru",
+        title2: "Jitrocel steviol bylinný sirup bez cukru",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371815/diavita/sirupy/153_jitrocel-steviol-bylinny-sirup-bez-cukru_cgdwiv.webp",
           "https://dummyimage.com/400x400.jpg",
@@ -250,9 +287,10 @@ export const data = [
       {
         id: 3,
         title: "Mateřídouška bylinný sirup",
+        title2: "Mateřídouška bylinný sirup",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/135_materidouska-bylinny-sirup_nu8chs.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240123/diavita/nove/sirupy/materidouskapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240108/diavita/nove/sirupy/materidouska1png.webp",
         ],
         url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup/",
         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
@@ -264,9 +302,10 @@ export const data = [
       {
         id: 4,
         title: "Mateřídouška bylinný sirup bez cukru",
+        title2: "Mateřídouška bylinný sirup bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371814/diavita/sirupy/138_materidouska-bylinny-sirup-bez-cukru_tkyuh8.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240119/diavita/nove/sirupy/metridouska_bez_cukru_1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240104/diavita/nove/sirupy/materidouska_bez_cukrupng.webp",
         ],
         url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",

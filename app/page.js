@@ -6,7 +6,7 @@ export default function Home() {
     <main className="">
       <HeroComponent />
       <ProductGridComponent />
-      <HeadignComponent />
+      {/* <HeadignComponent /> */}
     </main>
   );
 }

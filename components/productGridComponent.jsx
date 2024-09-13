@@ -32,7 +32,9 @@ export default function ProductGridComponent() {
                   height={300}
                   className="object-center mt-6 h-80 w-80"
                 />
-                <h2 className="pt-8 text-xl md:text-2xl">{category.title}</h2>
+                <h2 className="pt-8 text-xl tracking-normal uppercase md:text-2xl montserrat-900">
+                  {category.title}
+                </h2>
                 <p
                   className="px-5 pt-3 pb-8 p-text"
                   dangerouslySetInnerHTML={{

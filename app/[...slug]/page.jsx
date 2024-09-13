@@ -8,7 +8,7 @@ export default function Page({ params }) {
     <div className="py-6 bg-white sm:py-8 lg:py-12">
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="flex items-end justify-between gap-4 mb-6">
-          <h2 className="text-2xl font-bold text-gray-800 lg:text-7xl">
+          <h2 className="text-2xl tracking-tight text-gray-800 lg:text-7xl montserrat-900">
             {kategorie.title}
           </h2>
         </div>
@@ -27,22 +27,22 @@ export default function Page({ params }) {
               <Link
                 key={product.title}
                 href={`/produkty/${kategorie.id}/${product.id}`}
-                className="relative flex flex-col items-center justify-center w-full h-full mx-4 my-12 overflow-hidden transition ease-in-out rounded-lg shadow-lg group lg:mb-3 hover:scale-105 hover:duration-700 hover:shadow-2xl"
+                className="relative flex flex-col items-center justify-center w-full h-full overflow-hidden transition ease-in-out border rounded-lg shadow-lg border-neutral-200 group lg:mb-3 hover:scale-105 hover:duration-700 hover:shadow-2xl"
               >
                 <img
                   src={product.image[0]}
                   loading="lazy"
                   alt={product.title}
-                  width={200}
-                  height={300}
+                  width={500}
+                  height={500}
                   className=""
                 />
 
-                <div className="pt-8 pb-4 text-center">
-                  <h2 className="text-2xl capitalize text-bold">
+                <div className="pb-4 text-center ">
+                  <h2 className="mx-4 text-2xl first-letter:capitalize montserrat-900">
                     {product.title2}
                   </h2>
-                  {product.title}
+                  {/* {product.title} */}
                 </div>
                 {!product.flag ? null : (
                   <div className="absolute top-0 right-0 p-3 pl-8 text-xs bg-red-200 rounded-bl-full bg-opacity-40">

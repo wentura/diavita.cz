@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@100;300;400&display=swap");
+
 body {
   font-size: 1.05rem;
 }
@@ -10,4 +12,36 @@ body {
 }
 .p-hover {
   @apply text-lime-600;
+}
+
+.kolaz {
+  background-image: url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1726219704/diavita/nove/vazeliny/kolaz3.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-900 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }

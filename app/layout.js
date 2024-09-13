@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-screen mx-auto font-sans text-lg">
+      <body className="w-screen mx-auto font-sans text-lg tracking-tight roboto-thin ">
         <Header />
         {children}
         <WhereToBuyComponent />
