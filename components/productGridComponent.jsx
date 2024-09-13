@@ -23,7 +23,7 @@ export default function ProductGridComponent() {
               <Link
                 key={category.shortTitle}
                 href={`/${category.link}/${category.id}`}
-                className="relative flex flex-col items-center overflow-hidden transition ease-in-out rounded-lg shadow-lg group lg:mb-3 bg-gradient-to-tr from-white to-green-50 hover:scale-105 hover:duration-700 hover:shadow-2xl"
+                className="relative flex flex-col items-center overflow-hidden transition ease-in-out border rounded-lg shadow-lg border-neutral-200 group lg:mb-3 bg-gradient-to-tr from-white to-green-50 hover:scale-105 hover:duration-700 hover:shadow-2xl"
               >
                 <img
                   src={category.catImage}
