@@ -3,7 +3,7 @@ import React from "react";
 import { data } from "./data.js";
 export default function ProductGridComponent() {
   return (
-    <div className="py-8 md:py-12 lg:py-16 ">
+    <div className="py-0 md:py-2 lg:py-4 ">
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="mb-10 md:mb-16">
           <p className="max-w-screen-lg mx-auto text-center p-text md:text-md">
@@ -32,11 +32,11 @@ export default function ProductGridComponent() {
                   height={300}
                   className="object-center mt-6 h-80 w-80"
                 />
-                <h2 className="pt-8 text-xl tracking-normal uppercase md:text-2xl montserrat-900">
+                <h2 className="pt-4 text-xl tracking-normal uppercase md:text-2xl montserrat-900">
                   {category.title}
                 </h2>
                 <p
-                  className="px-5 pt-3 pb-8 p-text"
+                  className="px-5 pt-2 pb-8 text-sm p-text"
                   dangerouslySetInnerHTML={{
                     __html: category.text,
                   }}

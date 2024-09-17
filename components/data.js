@@ -14,7 +14,7 @@ export const data = [
       {
         id: 0,
         title: "Valinka",
-        title2: "čistá vazelína",
+        title2: "Čistá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_cistapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236534/diavita/nove/vazeliny/kolaz_cista.webp",
@@ -37,7 +37,7 @@ export const data = [
       {
         id: 1,
         title: "Valinka",
-        title2: "bílá vazelína",
+        title2: "Bílá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236522/diavita/nove/vazeliny/200ml_bilapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236536/diavita/nove/vazeliny/kolaz_bilapng.webp",
@@ -58,7 +58,7 @@ export const data = [
       {
         id: 2,
         title: "Valinka",
-        title2: "konopná vazelína",
+        title2: "Konopná vazelína",
         flag: "ORIGINÁLNÍ receptura Diavita",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236521/diavita/nove/vazeliny/50ml_konopna.webp",
@@ -74,7 +74,7 @@ export const data = [
       {
         id: 3,
         title: "Valinka",
-        title2: "rakytníková vazelína",
+        title2: "Rakytníková vazelína",
         flag: "ORIGINÁLNÍ receptura Diavita",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/126_vazelina-valinka-rakytnikova-kosmeticka-50ml_htmbet.webp",
@@ -90,7 +90,7 @@ export const data = [
       {
         id: 4,
         title: "Valinka",
-        title2: "žlutá vazelína",
+        title2: "Žlutá vazelína",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",

@@ -15,8 +15,9 @@ export default function Produkty({ params }) {
       {/* technicky vypis, ktery zmizi - {k} / {p} */}
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="flex items-end justify-between gap-4 mb-6">
-          <h2 className="w-full text-2xl tracking-tight text-center capitalize p-text lg:text-7xl md:text-left montserrat-900">
-            {!product.title2 ? null : product.title2} {product.title}
+          <h2 className="w-full text-2xl tracking-tight text-center p-text lg:text-7xl md:text-left montserrat-900">
+            {!product.title2 ? null : product.title2}
+            {/* { product.title } */}
           </h2>
         </div>
         <div className="flex flex-col-reverse gap-2 mb-8 md:flex-row md:mb-24 md:gap-8 ">
