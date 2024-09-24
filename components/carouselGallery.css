@@ -1,0 +1,20 @@
+.slider {
+  overflow: none !important;
+}
+.slider-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  overflow: none !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4d7c0f;
+}
+.swiper-pagination-bullet-active {
+  background: #4d7c0f;
+}
