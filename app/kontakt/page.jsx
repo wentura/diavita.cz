@@ -4,14 +4,14 @@ export default function Onas() {
     <div className="py-6 bg-white sm:py-8 lg:py-12">
       {/* technicky vypis, ktery zmizi - {k} / {p} */}
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
-        <div className="flex flex-col  gap-4 mb-12">
+        {/* <div className="flex flex-col  gap-4 mb-12">
           <h2 className="w-full text-2xl tracking-tight text-center p-text lg:text-7xl md:text-left montserrat-900">
             Kontakt
           </h2>
           <h4 className="w-full text-md tracking-tight text-center p-text lg:text-2xl md:text-left lg:montserrat-900">
             Přírodní péče pro zdraví a krásu vaší rodiny již od roku 1992.
           </h4>
-        </div>
+        </div> */}
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
             {/* <div className="p-2 w-1/2">

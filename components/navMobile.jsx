@@ -72,11 +72,25 @@ export default function NavMobile({ klass }) {
               </li>
             );
           })}
-          <li className="py-2 text-md p-text flex transition duration-100 hover:text-lime-600">
-            O nás
+          <li className="py-2 flex">
+            <Link
+              href="/onas"
+              className="text-md p-text flex transition duration-100
+              hover:text-lime-600"
+              onClick={toggleMenu}
+            >
+              O nás
+            </Link>
           </li>
-          <li className="py-2 text-md p-text flex transition duration-100 hover:text-lime-600">
-            Kontakt
+          <li className="py-2 flex">
+            <Link
+              href="/kontakt"
+              className="text-md p-text flex transition duration-100
+              hover:text-lime-600"
+              onClick={toggleMenu}
+            >
+              Kontakt
+            </Link>
           </li>
         </ul>
       </nav>
