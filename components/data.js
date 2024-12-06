@@ -6,7 +6,7 @@ export const data = [
     link: "vazeliny",
     text: "Pečující vazelíny VALINKA, aktivní masti, přípravky pro koupele a masáže.",
     longText:
-      "<p>Řada našich <strong>originálních vazelín VALINKA</strong>, kterou již tradičně dodáváme na český trh a je ceněna pro své kvalitní jednoduché a účinné složení.</p><p>Kvalitní vazelína je osvědčeným základním prostředkem pro péči nejen o citlivou a suchou pokožku. Dokáže intenzivně zlepšovat hydrataci a pružnost kůže a je jejím dokonalým ochráncem před vlivy vnějšího prostředí jako je chladný vzduch, mráz, vlhkost, vítr a další pro pokožku nepříznivé podmínky.</p><p>Řadu VALINKA ocení i lidé, kteří pečují o pokožku se sklonem k podráždění, ekzému, lupénce nebo kožním prasklinkám, kde kvalitní a nedráždivé emoliens je základem úspěšné běžné péče o náročnou pokožku.</p><p>V řadě VALINKA najdete i další aktivní přírodní složky jako je rakytníkový a konopný olej nebo lanolin.</p><p>A pro Ty z Vás, kteří si své kosmetické přípravky vyrábějí nejraději sami doma, jsou pak určeny kompletní sady pro domácí výrobu mastí HOME MADE. Stačí se jen pustit do toho!</p>",
+      "<p class='mb-2 lg:font-semibold lg:text-xl'>Tradiční řada kvalitních vazelín pro péči o pokožku</p><p>Řada originálních vazelín VALINKA, která je na českém trhu již dlouhodobě oblíbená, vyniká svým jednoduchým a účinným složením. Naše vazelíny jsou osvědčeným základem pro péči o citlivou, suchou i náročnou pokožku.</p><p>Vazelína účinně zlepšuje hydrataci, pružnost a vytváří ochrannou vrstvu, která pokožku chrání před nepříznivými vlivy jako chlad, mráz, vítr a vlhkost. Je ideálním pomocníkem pro každodenní péči o pokožku vystavenou náročným podmínkám.</p><p>Řada VALINKA je zvláště vhodná pro náročnou pokožku se sklonem projevů exémů, vyrážkám, či prasklinami kůže, kde je kvalitní a nedráždivá péče nezbytná. Emolienční vlastnosti našich vazelín pomáhají zklidnit a obnovit i tu nejnáročnější pleť.</p><p>V naší nabídce naleznete i produkty obohacené o aktivní přírodní složky, jako je rakytníkový a konopný olej či lanolin, které ještě více podporují regeneraci a ochranu pokožky.</p><p>Pro ty z vás, kteří si rádi vyrábějí kosmetické produkty doma, jsme připravili sady HOME MADE pro domácí výrobu mastí. Jednoduše si sestavte svou vlastní péči!</p>",
     catImage:
       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236536/diavita/nove/vazeliny/kolaz_bilapng.webp",
     url: "/kategorie/kosmetika",
@@ -28,11 +28,11 @@ export const data = [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_cistapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-cista-vazelina/",
-        subTitle: "100% čistá vazelína farmaceutické kvality.",
+        subTitle: "100% čistá vazelína vysoké kvality",
         shortDesc:
-          "Univerzální přípravek pro péči nejen o suchou a citlivou pokožku s velmi dobrou tolerancí i u nejnáročnějších typů kůže.",
+          "Naše čistá vazelína nabízí univerzální péči o pokožku s výjimečnou snášenlivostí i u těch nejnáročnějších typů pleti. Je ideální volbou pro každodenní péči o suchou, citlivou či podrážděnou pokožku.",
         longDesc:
-          "<p class='pb-2 font-extrabold'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>pomáhá zlepšovat hydrataci pokožky, zvláčňuje a zjemňuje</li><li>změkčuje ztvrdlou kůži loktů a pat</li><li>chrání pokožku před nepříznivými a dráždivými vlivy vnějšího prostředí (mráz, vítr, vlhkost)</li><li>pro své vlastnosti je výborným emoliens pro pravidelnou péči o náročnou kůži se sklonem k ekzému a lupénce</li><li>ošetřuje a chrání ruce fyzicky pracujících lidí</li><li>používá se i pro péči o roztřepené konečky vlasů a jako ochrana kůže obličeje při barvení vlasů</li><li>Valinka čistá 100% vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
+          "<p class='pb-2 font-extrabold uppercase'>Hlavní výhody a použití:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zlepšuje hydrataci pokožky, zvláčňuje a zjemňuje.</li><li>Účinně změkčuje ztvrdlou kůži na loktech a patách.</li><li>Poskytuje ochranu a péči rukám lidí, kteří vykonávají fyzicky náročnou práci.</li><li>Vhodná i pro ošetření roztřepených konečků vlasů a ochranu pokožky obličeje při barvení vlasů.</li><li>Ideální základ pro výrobu mastí s bylinnými výtažky a přírodními oleji.</li><li>Vhodná pro použití na obličej i celé tělo.</li><li>Bez parfemace.</li></ul>",
       },
       {
         id: 1,
@@ -67,9 +67,9 @@ export const data = [
         url: "https://www.nerashop.cz/valinka-konopna-kosmeticka-vazelina/",
         subTitle: "",
         shortDesc:
-          "Jedinečný přípravek řady VALINKA, který v sobě spojuje vlastnosti kosmetické vazelíny a konopného oleje pro zklidnění, výživu a regeneraci suché, citlivé, ekzematické, psoriatické a jinak náročné požadavky.",
+          "Objevte jedinečnou recepturu konopné vazelíny Valinka, která spojuje výhody tradiční kosmetické vazelíny s konopným olejem. Tento přípravek byl vytvořen pro zklidnění, výživu a regeneraci suché, citlivé a problematické pokožky.",
         longDesc:
-          "<p class='pb-2 font-extrabold'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>příjemně zvláčňuje a zjemňuje pokožku, pomáhá zlepšovat její hydrataci</li><li>podporuje posílení přirozené ochranné kožní bariéry a tím i odolnost kůže vůči vnějším nepříznivým vlivům</li><li>obsahem esenciálních mastných kyselin konopného oleje pokožku zklidňuje, vyživuje a povzbuzuje její regeneraci</li><li>pravidelnou péčí zlepšuje celkový vzhled problematické, suché a citlivé pokožky</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+          "<p class='pb-2 font-extrabold uppercase'>Hlavní výhody a použití:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zvláčňuje, zjemňuje a zlepšuje hydrataci pokožky.</li><li>Posiluje přirozenou ochrannou bariéru pokožky a zvyšuje její odolnost vůči vnějším nepříznivým vlivům.</li><li>Obsah esenciálních mastných kyselin z konopného oleje pokožku zklidňuje, vyživuje a podporuje její regeneraci.</li><li>Pravidelná péče výrazně zlepšuje vzhled suché, citlivé a problematické pleti.</li><li>Vhodná pro obličej i celé tělo.</li><li>Jemná parfemace.</li></ul>",
       },
       {
         id: 3,
@@ -83,9 +83,9 @@ export const data = [
         url: "https://www.nerashop.cz/valinka-rakytnikova-kosmeticka-vazelina/",
         subTitle: "",
         shortDesc:
-          "Jemná kosmetická vazelína s obsahem rakytníkového oleje pro regeneraci, zklidnění a zvláčení pokožky.",
+          "Dopřejte své pokožce výjimečnou péči s jemnou rakytníkovou vazelínou Valinka, obohacenou o rakytníkový olej. Tato vazelína podporuje regeneraci a zklidnění pleti, a je ideální pro citlivou pokožku.",
         longDesc:
-          "<p class='pb-2 font-extrabold'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>zvláčňuje, zklidňuje a pomáhá regeneraci pokožky </li><li>obsahuje jedinečný rakytníkový olej bohatý na vitamíny a stopové prvky, je velmi bohatým zdrojem především vitamínu C, který blahodárně působí na dobrý stav pokožky</li><li>ideální pro péči o citlivou a problematickou pokožku</li><li>pomáhá popraskaným a citlivým koutkům, zklidňuje kůži po opalování, pečuje o pokožku po zhojených jizvičkách, omrzlinách nebo odřeninách</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+          "<p class='pb-2 font-extrabold uppercase'>Hlavní výhody a použití:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zvláčňuje, zklidňuje a podporuje regeneraci pokožky.</li><li>Obsahuje rakytníkový olej bohatý na vitamíny, stopové prvky, a především vitamín C, který napomáhá udržovat pokožku ve skvělém stavu.</li><li>Vhodná pro citlivou a problematickou pleť, přispívá k její regeneraci a zdravému vzhledu.</li><li>Jemná parfemace.</li></ul>",
       },
       {
         id: 4,
@@ -100,11 +100,11 @@ export const data = [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
-        subTitle: "100% žlutá vazelína farmaceutické kvality.",
+        subTitle: "100% žlutá vazelína vysoké kvality.",
         shortDesc:
-          "Univerzální přípravek s širokým využitím k promaštění, zvláčnění a ochraně suché a namáhané pokožky. Výborný základ pro výrobu domácí kosmetiky.",
+          "Naše žlutá vazelína nabízí univerzální péči pro suchou a namáhanou pokožku. Tento produkt je ideální pro promaštění, zvláčnění a ochranu pleti a skvělým základem pro domácí kosmetiku.",
         longDesc:
-          "<p class='pb-2 font-extrabold'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>promašťuje, zvláčňuje a ulevuje suché pokožce od nepříjemného napětí</li><li>zlepšuje hydrataci pokožky</li><li>na kůži vytváří ochrannou vrstvu proti působení větru, chladu, vody a mrazu</li><li>pomáhá změkčovat hrubou a tvrdou pokožku</li><li>ochraňuje a pečuje o kůži rukou u fyzicky pracujících</li><li>Valinka 100% žlutá vazelína je ideálním základem pro výrobu mastí s přírodními bylinnými výtažky a oleji</li><li>vhodná pro obličej i celé tělo</li><li>BEZ PARFEMACE A PAREBENŮ</li></ul>",
+          "<p class='pb-2 font-extrabold uppercase'>Hlavní výhody a použití:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Intenzivně promašťuje, zvláčňuje a ulevuje suché pokožce od pocitu napětí.</li><li>Zlepšuje hydrataci a chrání pokožku vytvořením ochranné vrstvy proti větru, chladu, vodě a mrazu.</li><li>Pomáhá změkčovat hrubou a tvrdou kůži.</li><li>Poskytuje péči a ochranu rukám u fyzicky pracujících lidí.</li><li>Ideální základ pro výrobu mastí s bylinnými výtažky a oleji.</li><li>Vhodná pro obličej i celé tělo.</li><li>Bez parfemace.</li></ul>",
       },
     ],
   },
