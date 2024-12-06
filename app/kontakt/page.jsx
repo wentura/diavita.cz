@@ -1,3 +1,4 @@
+import Logo from "@/components/logo";
 export default function Onas() {
   return (
     <div className="py-6 bg-white sm:py-8 lg:py-12">
@@ -67,6 +68,17 @@ export default function Onas() {
               </button>
             </div> */}
             <div className="p-2 w-full pt-8 mt-8 text-center flex flex-col">
+              <div className="text-center mx-auto">
+                <Logo klass={250} />
+              </div>
+              <div>
+                <a
+                  className="underline underline-offset-2 p-text decoration-slate-300 transition duration-100 hover:text-lime-600"
+                  href="https://www.diavita.cz"
+                >
+                  www.diavita.cz
+                </a>
+              </div>
               <div>
                 <a
                   className="underline underline-offset-2 p-text decoration-slate-300 transition duration-100 hover:text-lime-600"
