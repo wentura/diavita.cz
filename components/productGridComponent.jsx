@@ -6,12 +6,12 @@ export default function ProductGridComponent() {
     <div className="py-0 md:py-2 lg:py-4 ">
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="mb-10 md:mb-16">
-          <p className="max-w-screen-lg mx-auto text-center p-text md:text-md">
-            Od roku 1992 v Pardubicích s maximální péčí a kvalitou vyrábíme
-            přípravky plné přírodní síly bylin,{" "}
-            <br className="hidden lg:block" />
-            výborná sladidla a osvědčené kosmetické přípravky pro šetrnou péči a
-            ochranu pokožky.
+          <p className="max-w-screen-lg mx-auto text-left p-text md:text-md">
+            Od roku 1992 vyrábíme v Pardubicích kvalitní produkty pro zdraví a
+            péči o pokožku. Naše sirupy a kosmetika jsou vyrobeny z pečlivě
+            vybraných surovin, které využívají sílu bylin k podpoře zdraví a
+            pohody celé rodiny. S Diavitou se můžete spolehnout na šetrnou péči
+            a účinnou ochranu pokožky i zdraví.
           </p>
           <p className="max-w-screen-md pt-4 mx-auto text-center p-text md:text-lg">
             {/* Přípravky Diavita koupíte v lékárnách a na vybraných e-shopech. */}

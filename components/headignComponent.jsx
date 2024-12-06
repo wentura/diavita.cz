@@ -9,7 +9,7 @@ export default function HeadignComponent() {
           <Logo klass={275} />
         </div>
         <p className="hidden max-w-screen-md mx-auto text-center p-text md:text-lg lg:flex">
-          Tradiční český výrobce kosmetiky, bylinných sirupů a sladidel
+          Tradiční český výrobce sirupů a kosmetiky
         </p>
       </div>
     </div>

@@ -16,12 +16,18 @@ export default function NavComponent({ klass }) {
           </Link>
         );
       })}
-      <span className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600">
+      <Link
+        className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600"
+        href="/onas"
+      >
         O nás
-      </span>
-      <span className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600">
+      </Link>
+      <Link
+        className="flex text-xs transition duration-100 md:text-sm p-text hover:text-lime-600"
+        href="/kontakt"
+      >
         Kontakt
-      </span>
+      </Link>
       <a
         href="https://www.nerashop.cz/znacka/diavita/"
         className="hidden text-sm font-semibold transition duration-100 md:block p-text hover:text-lime-600"
