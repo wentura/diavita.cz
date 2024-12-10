@@ -106,6 +106,25 @@ export const data = [
         longDesc:
           "<p class='pb-2 font-extrabold uppercase'>Hlavní výhody a použití:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Intenzivně promašťuje, zvláčňuje a ulevuje suché pokožce od pocitu napětí.</li><li>Zlepšuje hydrataci a chrání pokožku vytvořením ochranné vrstvy proti větru, chladu, vodě a mrazu.</li><li>Pomáhá změkčovat hrubou a tvrdou kůži.</li><li>Poskytuje péči a ochranu rukám u fyzicky pracujících lidí.</li><li>Ideální základ pro výrobu mastí s bylinnými výtažky a oleji.</li><li>Vhodná pro obličej i celé tělo.</li><li>Bez parfemace.</li></ul>",
       },
+      {
+        id: 5,
+        title: "Valinka",
+        title2: "Vazelína s lanolinem",
+        image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
+        ],
+        url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
+        subTitle: "100% žlutá vazelína vysoké kvality.",
+        shortDesc:
+          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
+        longDesc:
+          "<p class='pb-2 font-extrabold uppercase'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci.</li><li>Pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním.</li><li>Celkově podporuje regeneraci pokožky a zklidňuje ji.</li><li>Je ideální pro péči o suchou a citlivou pokožku.</li><li>Zlepšuje vzhled drsné a šupinaté kůže.</li><li>Pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst.</li><li>Chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti.</li><li>Je vhodná pro masáž drobných zahojených jizviček i celkové masáže</li><li>Vhodná pro obličej i celé tělo</li><li>Obsahuje jemnou parfemaci</li></ul>",
+      },
     ],
   },
   {
