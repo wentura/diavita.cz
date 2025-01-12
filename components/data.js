@@ -37,7 +37,7 @@ export const data = [
       {
         id: 1,
         title: "Valinka",
-        title2: "Bílá vazelína",
+        title2: "Bílá vazelína s lanolinem",
         image: [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1727184923/diavita/nove/vazeliny/50ml_bila.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236536/diavita/nove/vazeliny/kolaz_bilapng.webp",
@@ -49,11 +49,11 @@ export const data = [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236520/diavita/nove/vazeliny/5kg_bilapng.webp",
         ],
         url: "https://www.nerashop.cz/valinka-bila-kosmeticka-vazelina/",
-        subTitle: "100% bílá vazelína farmaceutické kvality.",
+        subTitle: "100% bílá vazelína vysoké kvality.",
         shortDesc:
-          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
+          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
         longDesc:
-          "<p class='pb-2 font-extrabold'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci</li><li>pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním</li><li>celkově podporuje regeneraci pokožky a zklidňuje ji</li><li>je ideální pro péči o suchou a citlivou pokožku</li><li>zlepšuje vzhled drsné a šupinaté kůže</li><li>pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst</li><li>chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti</li><li>je vhodná pro masáž drobných jizviček i celkové masáže</li><li>vhodná pro obličej i celé tělo</li><li>obsahuje jemnou parfemaci</li><li>BEZ PARABENŮ</li></ul>",
+          "<p class='pb-2 font-extrabold uppercase'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci.</li><li>Pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním.</li><li>Celkově podporuje regeneraci pokožky a zklidňuje ji.</li><li>Je ideální pro péči o suchou a citlivou pokožku.</li><li>Zlepšuje vzhled drsné a šupinaté kůže.</li><li>Pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst.</li><li>Chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti.</li><li>Je vhodná pro masáž drobných zahojených jizviček i celkové masáže</li><li>Vhodná pro obličej i celé tělo</li><li>Obsahuje jemnou parfemaci</li></ul>",
       },
       {
         id: 2,
@@ -92,8 +92,9 @@ export const data = [
         title: "Valinka",
         title2: "Žlutá vazelína",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
+
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
@@ -108,22 +109,23 @@ export const data = [
       },
       {
         id: 5,
-        title: "Valinka",
-        title2: "Vazelína s lanolinem",
+        title: "Mast",
+        title2: "Zinková mast",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
+
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
         ],
-        url: "https://www.nerashop.cz/valinka-zluta-vazelina/",
-        subTitle: "100% žlutá vazelína vysoké kvality.",
-        shortDesc:
-          "Speciální formulace velmi jemné regenerační kosmetické vazelíny s přírodním lanolinem pro péči o citlivou, suchou, hrubou a namáhanou pokožku.",
+        url: "https://www.nerashop.cz/zinkova-mast/",
+        subTitle:
+          "Zinková mast kosmetické řady značky Diavita je určena k ochraně a péči o citlivou a problematickou pokožku dětí a dospělých.",
+        shortDesc: "",
         longDesc:
-          "<p class='pb-2 font-extrabold uppercase'>ZÁKLADNÍ VLASTNOSTI A POUŽITÍ:</p><ul class='flex flex-col gap-1 pl-5 list-disc lowercase'><li>Zlepšuje pružnost a vláčnost pokožky a její celkovou hydrataci.</li><li>Pomáhá v pokožce vázat vodu a díky přírodnímu lanolinu dodává kůži lipidy, které jsou podobné jejím vlastním.</li><li>Celkově podporuje regeneraci pokožky a zklidňuje ji.</li><li>Je ideální pro péči o suchou a citlivou pokožku.</li><li>Zlepšuje vzhled drsné a šupinaté kůže.</li><li>Pomáhá fyzicky pracujícím lidem udržovat pokožku rukou v dobrém stavu bez prasklin a hrubých míst.</li><li>Chrání kůži před působením nepříznivých povětrnostních vlivů a vlhkosti.</li><li>Je vhodná pro masáž drobných zahojených jizviček i celkové masáže</li><li>Vhodná pro obličej i celé tělo</li><li>Obsahuje jemnou parfemaci</li></ul>",
+          "<p class='pb-2'>Mast s obsahem oxidu zinečnatého zklidňuje, mírně vysušuje a lehce chladí.</p><p class='pb-2'>Je vhodná na ochranu míst vystavených opruzeninám, častějšímu pocení a mechanickému dráždění oděvem.</p><p class='pb-2'>Pomáhá u problematických míst rtů, nadměrném pocení, nošení plenek a inkontinenci. Uplatňuje se i u sportovců v rámci ochrany namáhaných míst pokožky.</p><p class='pb-2'>Je vynikajícím pomocníkem v péči o pokožku všech členů rodiny. Mast nanášejte dle potřeby několikrát denně na určená místa pokožky.</p>",
       },
     ],
   },
@@ -316,10 +318,11 @@ export const data = [
         title: "Jitrocel bylinný sirup s vitamínem C bez cukru",
         title2: "Jitrocel bylinný sirup s vitamínem C bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240099/diavita/nove/sirupy/jitrocelbezcukru2.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC2.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC.webp",
         ],
         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
-        subTitle: "Podpora dýchacích cest pro celou rodinu ",
+        subTitle: "Podpora dýchacích cest pro celou rodinu",
         shortDesc:
           "Doplněk stravy v tekuté formě, který kombinuje tradiční účinky jitrocele s vitamínem C pro podporu zdraví dýchacích cest a imunitního systému. Tento lahodný sirup je vhodný pro dospělé i děti od 3 let.",
         longDesc:
@@ -342,11 +345,11 @@ export const data = [
       },
       {
         id: 2,
-        title: "Jitrocel steviol bylinný sirup bez cukru",
-        title2: "Jitrocel steviol bylinný sirup bez cukru",
+        title: "Skorocel bylinný sirup bez cukru ",
+        title2: "Skorocel steviol bylinný sirup bez cukru",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709371815/diavita/sirupy/153_jitrocel-steviol-bylinny-sirup-bez-cukru_cgdwiv.webp",
-          "https://dummyimage.com/400x400.jpg",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC2.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC.webp",
         ],
         url: "https://www.nerashop.cz/diavita-jitrocel-steviol-bylinny-sirup-bez-cukru-225-g/",
         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
