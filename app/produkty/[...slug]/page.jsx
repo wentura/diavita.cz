@@ -65,11 +65,11 @@ export default function Produkty({ params }) {
             /> */}
           </div>
         </div>
-        <div className="hidden px-4 py-2 mx-auto font-bold text-center transition ease-in-out border-2 rounded-md shadow-lg w-72 bg-lime-50 border-lime-700 md:block md:px-8 md:py-4 md:w-96 hover:scale-105 hover:duration-700 hover:shadow-2xl">
-          <a className="" href={product.url} target="_blank">
+        <a className="" href={product.url} target="_blank">
+          <div className="hidden px-4 py-2 mx-auto font-bold text-center transition ease-in-out border-2 rounded-md shadow-lg w-72 bg-lime-50 border-lime-700 md:block md:px-8 md:py-4 md:w-96 hover:scale-105 hover:duration-700 hover:shadow-2xl">
             koupit v NeraShop.cz
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );
