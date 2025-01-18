@@ -112,23 +112,27 @@ export const data = [
         title: "Mast",
         title2: "Zinková mast",
         image: [
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
 
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
         ],
         url: "https://www.nerashop.cz/zinkova-mast/",
         subTitle:
           "Zinková mast kosmetické řady značky Diavita je určena k ochraně a péči o citlivou a problematickou pokožku dětí a dospělých.",
         shortDesc: "",
         longDesc:
-          "<p class='pb-2'>Mast s obsahem oxidu zinečnatého zklidňuje, mírně vysušuje a lehce chladí.</p><p class='pb-2'>Je vhodná na ochranu míst vystavených opruzeninám, častějšímu pocení a mechanickému dráždění oděvem.</p><p class='pb-2'>Pomáhá u problematických míst rtů, nadměrném pocení, nošení plenek a inkontinenci. Uplatňuje se i u sportovců v rámci ochrany namáhaných míst pokožky.</p><p class='pb-2'>Je vynikajícím pomocníkem v péči o pokožku všech členů rodiny. Mast nanášejte dle potřeby několikrát denně na určená místa pokožky.</p>",
+          "<p class='pb-2'>Mast s obsahem oxidu zinečnatého zklidňuje, mírně vysušuje a lehce chladí. Je vhodná na ochranu míst vystavených opruzeninám, častějšímu pocení a mechanickému dráždění oděvem. Pomáhá u problematických míst rtů, nadměrném pocení, nošení plenek a inkontinenci. Uplatňuje se i u sportovců v rámci ochrany namáhaných míst pokožky. Je vynikajícím pomocníkem v péči o pokožku všech členů rodiny.</p><p class='pb-2'>Mast nanášejte dle potřeby několikrát denně na určená místa pokožky.</p>",
       },
     ],
   },
+
+  //!! CAJE
+
+  /*
   {
     id: 1,
     title: "Bylinné čaje",
@@ -297,97 +301,101 @@ export const data = [
       },
     ],
   },
-  {
-    id: 2,
-    // title: "Bylinné sirupy a sladidla",
-    title: "Sirupy",
-    shortTitle: "Sirupy",
-    link: "sirupy",
-    text: "Tradiční bylinná péče pro zdravé dýchání a posílení imunity",
-    longText:
-      "<p class='font-bold my-2 text-xl md:text-2xl'>Tradiční bylinná péče pro zdravé dýchání a posílení imunity.</p><p>Objevte sílu v našich bylinných sirupech, které jsou pečlivě vyrobeny z extraktů jitrocele a obohacené o vitamín C. Tyto lahodné sirupy nejen podporují normální funkci dýchacího systému, ale také pomáhají posilovat vaši imunitu, čímž vám poskytují přirozenou ochranu zejména v období zvýšeného výskytu nachlazení.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p><p class='my-2'>			Pokud vyberete tradiční jitrocelový sirup můžete se spolehnout na kvalitu a efektivitu našich výrobků. Pečujte o své zdraví s našimi bylinnými sirupy.</p>		",
+**/
 
-    image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
-    catImage:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
-    url: "/kategorie/sirupysladidla",
-    products: [
-      {
-        id: 0,
-        title: "Jitrocel bylinný sirup s vitamínem C bez cukru",
-        title2: "Jitrocel bylinný sirup s vitamínem C bez cukru",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC2.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC.webp",
-        ],
-        url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
-        subTitle: "Podpora dýchacích cest pro celou rodinu",
-        shortDesc:
-          "Doplněk stravy v tekuté formě, který kombinuje tradiční účinky jitrocele s vitamínem C pro podporu zdraví dýchacích cest a imunitního systému. Tento lahodný sirup je vhodný pro dospělé i děti od 3 let.",
-        longDesc:
-          "<p class='pb-2 font-extrabold'>Hlavní benefity:</p><ul><li><strong class='underline'>Podpora dýchacího systému</strong><br /><div class='pl-4'>Extrakt z jitrocele přispívá k normální funkci dýchacích cest.</div></li><li><strong class='underline'>Posílení imunity</strong><br /><div class='pl-4'>Vitamín C pomáhá posilovat imunitní systém a snižovat únavu a vyčerpání, což je zvláště důležité v období nachlazení a chřipek.</div></li><li><strong class='underline'>Bez cukru</strong><br /><div class='pl-4'> Sirup je slazen sladidly.</div></li><li><strong class='underline'>Vhodné pro celou rodinu</strong><br /><div class='pl-4'> Lahodná chuť sirupu si získá nejen dospělé, ale i děti od 3 let.</li></ul><p class= 'py-2' > Svým složení se sladidly je vhodný i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br />Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span> sladidlo sorbitol, čištěná voda, extrakt jitrocele 10 % (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C – kyselina askorbová.</p>",
-      },
-      {
-        id: 1,
-        title: "Jitrocel bylinný sirup",
-        title2: "Jitrocel bylinný sirup",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240100/diavita/nove/sirupy/jitrocel_png.webp",
-        ],
-        url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-250-g/",
-        subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
-        shortDesc:
-          "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
-        longDesc:
-          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p>",
-      },
-      {
-        id: 2,
-        title: "Skorocel bylinný sirup bez cukru ",
-        title2: "Skorocel steviol bylinný sirup bez cukru",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC2.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC.webp",
-        ],
-        url: "https://www.nerashop.cz/diavita-jitrocel-steviol-bylinny-sirup-bez-cukru-225-g/",
-        subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
-        shortDesc:
-          "Sirup s extraktem z jitrocele, vitamínem C a moderním sladidlem z rostliny stévie má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
-        longDesc:
-          "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Svým složením se sladidly je vhodný i pro diabetiky.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo steviolglykosidy, vitamín C - kyselina askorbová.</p>",
-      },
-      {
-        id: 3,
-        title: "Mateřídouška bylinný sirup",
-        title2: "Mateřídouška bylinný sirup",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1727185113/diavita/nove/sirupy/materidouska2.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240108/diavita/nove/sirupy/materidouska1png.webp",
-        ],
-        url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup/",
-        subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
-        shortDesc:
-          "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
-        longDesc:
-          "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt mateřídoušky 10 % (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p>",
-      },
-      {
-        id: 4,
-        title: "Mateřídouška bylinný sirup bez cukru",
-        title2: "Mateřídouška bylinný sirup bez cukru",
-        image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240119/diavita/nove/sirupy/metridouska_bez_cukru_1png.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240104/diavita/nove/sirupy/materidouska_bez_cukrupng.webp",
-        ],
-        url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup-bez-cukru-225-g/",
-        subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
-        shortDesc:
-          "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
-        longDesc:
-          "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='pb-2'>Složení bez cukru s obsahem sladidel je vhodné i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt mateřídoušky 10% (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C - kyselina askorbová</p>",
-      },
-    ],
-  },
+  //!! SIRUPY
+
+  //   {
+  //     id: 2,
+  //     // title: "Bylinné sirupy a sladidla",
+  //     title: "Sirupy",
+  //     shortTitle: "Sirupy",
+  //     link: "sirupy",
+  //     text: "Tradiční bylinná péče pro zdravé dýchání a posílení imunity",
+  //     longText:
+  //       "<p class='font-bold my-2 text-xl md:text-2xl'>Tradiční bylinná péče pro zdravé dýchání a posílení imunity.</p><p>Objevte sílu v našich bylinných sirupech, které jsou pečlivě vyrobeny z extraktů jitrocele a obohacené o vitamín C. Tyto lahodné sirupy nejen podporují normální funkci dýchacího systému, ale také pomáhají posilovat vaši imunitu, čímž vám poskytují přirozenou ochranu zejména v období zvýšeného výskytu nachlazení.</p><p class='font-bold'>Sirupy jsou vhodné pro dospělé a děti od 3 let.</p><p class='my-2'>			Pokud vyberete tradiční jitrocelový sirup můžete se spolehnout na kvalitu a efektivitu našich výrobků. Pečujte o své zdraví s našimi bylinnými sirupy.</p>		",
+
+  //     image:
+  //       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702744090/diavita/caje/spolecne_lzlh4a.webp",
+  //     catImage:
+  //       "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
+  //     url: "/kategorie/sirupysladidla",
+  //     products: [
+  //       {
+  //         id: 0,
+  //         title: "Jitrocel bylinný sirup s vitamínem C bez cukru",
+  //         title2: "Jitrocel bylinný sirup s vitamínem C bez cukru",
+  //         image: [
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC2.webp",
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701669/diavita/leden/WjitrocelBC.webp",
+  //         ],
+  //         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-bez-cukru-225-g/",
+  //         subTitle: "Podpora dýchacích cest pro celou rodinu",
+  //         shortDesc:
+  //           "Doplněk stravy v tekuté formě, který kombinuje tradiční účinky jitrocele s vitamínem C pro podporu zdraví dýchacích cest a imunitního systému. Tento lahodný sirup je vhodný pro dospělé i děti od 3 let.",
+  //         longDesc:
+  //           "<p class='pb-2 font-extrabold'>Hlavní benefity:</p><ul><li><strong class='underline'>Podpora dýchacího systému</strong><br /><div class='pl-4'>Extrakt z jitrocele přispívá k normální funkci dýchacích cest.</div></li><li><strong class='underline'>Posílení imunity</strong><br /><div class='pl-4'>Vitamín C pomáhá posilovat imunitní systém a snižovat únavu a vyčerpání, což je zvláště důležité v období nachlazení a chřipek.</div></li><li><strong class='underline'>Bez cukru</strong><br /><div class='pl-4'> Sirup je slazen sladidly.</div></li><li><strong class='underline'>Vhodné pro celou rodinu</strong><br /><div class='pl-4'> Lahodná chuť sirupu si získá nejen dospělé, ale i děti od 3 let.</li></ul><p class= 'py-2' > Svým složení se sladidly je vhodný i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br />Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span> sladidlo sorbitol, čištěná voda, extrakt jitrocele 10 % (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C – kyselina askorbová.</p>",
+  //       },
+  //       {
+  //         id: 1,
+  //         title: "Jitrocel bylinný sirup",
+  //         title2: "Jitrocel bylinný sirup",
+  //         image: [
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240102/diavita/nove/sirupy/jitrocel1png.webp",
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240100/diavita/nove/sirupy/jitrocel_png.webp",
+  //         ],
+  //         url: "https://www.nerashop.cz/diavita-jitrocel-bylinny-sirup-250-g/",
+  //         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
+  //         shortDesc:
+  //           "Sirup s extraktem z jitrocele a vitamínem C má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+  //         longDesc:
+  //           "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p>",
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "Skorocel bylinný sirup bez cukru ",
+  //         title2: "Skorocel steviol bylinný sirup bez cukru",
+  //         image: [
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC2.webp",
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1736701670/diavita/leden/WskorocelBC.webp",
+  //         ],
+  //         url: "https://www.nerashop.cz/diavita-jitrocel-steviol-bylinny-sirup-bez-cukru-225-g/",
+  //         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
+  //         shortDesc:
+  //           "Sirup s extraktem z jitrocele, vitamínem C a moderním sladidlem z rostliny stévie má příjemnou lahodnou chuť a je určen pro dospělé i děti od 3 let.",
+  //         longDesc:
+  //           "<p class='pb-2'>Obsažený extrakt jitrocele podporuje normální funkci dýchacího systému a vitamín C přispívá současně k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Svým složením se sladidly je vhodný i pro diabetiky.</p><p class='pb-2'>Tradiční jitrocelový bylinný sirup je vynikajícím doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt jitrocele 10% (čištěná voda, jitrocel, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo steviolglykosidy, vitamín C - kyselina askorbová.</p>",
+  //       },
+  //       {
+  //         id: 3,
+  //         title: "Mateřídouška bylinný sirup",
+  //         title2: "Mateřídouška bylinný sirup",
+  //         image: [
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1727185113/diavita/nove/sirupy/materidouska2.webp",
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240108/diavita/nove/sirupy/materidouska1png.webp",
+  //         ],
+  //         url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup/",
+  //         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
+  //         shortDesc:
+  //           "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
+  //         longDesc:
+  //           "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>invertní cukr, extrakt mateřídoušky 10 % (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), čištěná voda, konzervant sorban draselný, vitamín C - kyselina askorbová.</p>",
+  //       },
+  //       {
+  //         id: 4,
+  //         title: "Mateřídouška bylinný sirup bez cukru",
+  //         title2: "Mateřídouška bylinný sirup bez cukru",
+  //         image: [
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240119/diavita/nove/sirupy/metridouska_bez_cukru_1png.webp",
+  //           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726240104/diavita/nove/sirupy/materidouska_bez_cukrupng.webp",
+  //         ],
+  //         url: "https://www.nerashop.cz/diavita-materidouska-bylinny-sirup-bez-cukru-225-g/",
+  //         subTitle: "DOPLNĚK STRAVY V TEKUTÉ FORMĚ",
+  //         shortDesc:
+  //           "Bylinný sirup vyrobený z extraktu mateřídoušky obohacený vitamínem C je určený pro dospělé a děti od 3 let.",
+  //         longDesc:
+  //           "<p class='pb-2'>Mateřídouška podporuje normální funkci dýchacího systému.</p><p class='pb-2'>Vitamín C přispívá k normální funkci imunitního systému a ke snížení míry únavy a vyčerpání.</p><p class='pb-2'>Tradiční mateřídouškový bylinný sirup má velmi lahodnou chuť a je ideálním doplňkem stravy v období se zvýšeným výskytem nachlazení, kašle a bolestí v krku.</p><p class='pb-2'>Složení bez cukru s obsahem sladidel je vhodné i pro diabetiky a osoby se sníženou tolerancí glukózy.</p><p class='font-extrabold'>Doporučené dávkování:</p><ul class='flex flex-col gap-1 pb-2 pl-5 list-disc lowercase'><li>Děti od 3 let: 1-2 čajové lžičky 3x denně</li><li>Dospělí: 1-2 polévkové lžíce 3x denně</li></ul><p>Aplikujte nejlépe do sklenice vody.<br /Nepřekračujte doporučené denní dávkování.<br />Při potížích s dýchacími cestami se vždy poraďte se svým lékařem.<br />Sirup není určen jako náhrada pestré stravy.<br />Před použitím dobře protřepejte.<br />Sediment není na závadu a je přirozenou součástí bylinného sirupu.<br />Nadměrná konzumace může vyvolat projímavé účinky.</p><p class='py-2'>Chraňte před mrazem a přímým slunečním světlem a skladujte při teplotě + 5 až + 25 °C</p><p><span class='font-extrabold'>Složení:</span>sladidlo sorbitol, čištěná voda, extrakt mateřídoušky 10% (čištěná voda, mateřídouška, antioxidant kyselina citrónová, konzervant sorban draselný), konzervant sorban draselný, sladidlo acesulfam K, vitamín C - kyselina askorbová</p>",
+  //       },
+  //     ],
+  //   },
 ];
