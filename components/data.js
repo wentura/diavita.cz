@@ -112,13 +112,9 @@ export const data = [
         title: "Mast",
         title2: "Zinková mast",
         image: [
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236537/diavita/nove/vazeliny/kolaz_zlutapng.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1707129629/diavita/vazeliny/zEshopu/120_vazelina-valinka-zluta-200ml-01_fsu6e1.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
-
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236527/diavita/nove/vazeliny/200ml_zluta_vne1png.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236516/diavita/nove/vazeliny/3kg_zlutapng.webp",
-          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1726236517/diavita/nove/vazeliny/5kg_zlutapng.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1737527768/diavita/mast/zinkova_mala_pruhled.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1737527131/diavita/mast/zinkova1_pruhled.webp",
+          "https://res.cloudinary.com/dam7wdzvx/image/upload/v1737527131/diavita/mast/zinkovka_vne_pruhled.webp",
         ],
         url: "https://www.nerashop.cz/zinkova-mast/",
         subTitle:

@@ -44,7 +44,7 @@ export default function Vazeliny() {
                   alt={product.title}
                   width={500}
                   height={500}
-                  className=""
+                  className="max-h-96 w-auto"
                 />
 
                 <div className="pb-4 text-center ">
