@@ -116,7 +116,7 @@ export const data = [
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1737527131/diavita/mast/zinkova1_pruhled.webp",
           "https://res.cloudinary.com/dam7wdzvx/image/upload/v1737527131/diavita/mast/zinkovka_vne_pruhled.webp",
         ],
-        url: "https://www.nerashop.cz/zinkova-mast/",
+        url: "https://www.nerashop.cz/diavita-zinkova-mast/",
         subTitle:
           "Zinková mast kosmetické řady značky Diavita je určena k ochraně a péči o citlivou a problematickou pokožku dětí a dospělých.",
         shortDesc: "",
