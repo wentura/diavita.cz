@@ -1,9 +1,9 @@
 export const data = [
   {
     id: 0,
-    title: "Vazelíny",
-    shortTitle: "Vazelíny",
-    link: "vazeliny",
+    title: "Kosmetika",
+    shortTitle: "Kosmetika",
+    link: "kosmetika",
     text: "Pečující vazelíny VALINKA, aktivní masti, přípravky pro koupele a masáže.",
     longText:
       "<p class='mb-2 lg:font-semibold lg:text-xl'>Tradiční řada kvalitních vazelín pro péči o pokožku</p><p>Řada originálních vazelín VALINKA, která je na českém trhu již dlouhodobě oblíbená, vyniká svým jednoduchým a účinným složením. Naše vazelíny jsou osvědčeným základem pro péči o citlivou, suchou i náročnou pokožku.</p><p>Vazelína účinně zlepšuje hydrataci, pružnost a vytváří ochrannou vrstvu, která pokožku chrání před nepříznivými vlivy jako chlad, mráz, vítr a vlhkost. Je ideálním pomocníkem pro každodenní péči o pokožku vystavenou náročným podmínkám.</p><p>Řada VALINKA je zvláště vhodná pro náročnou pokožku se sklonem projevů exémů, vyrážkám, či prasklinami kůže, kde je kvalitní a nedráždivá péče nezbytná. Emolienční vlastnosti našich vazelín pomáhají zklidnit a obnovit i tu nejnáročnější pleť.</p><p>V naší nabídce naleznete i produkty obohacené o aktivní přírodní složky, jako je rakytníkový a konopný olej či lanolin, které ještě více podporují regeneraci a ochranu pokožky.</p><p>Pro ty z vás, kteří si rádi vyrábějí kosmetické produkty doma, jsme připravili sady HOME MADE pro domácí výrobu mastí. Jednoduše si sestavte svou vlastní péči!</p>",

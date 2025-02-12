@@ -37,7 +37,7 @@ export default function Page({ params }) {
                   alt={product.title}
                   width={500}
                   height={500}
-                  className=""
+                  className="max-h-[300px] object-contain"
                 />
 
                 <div className="pb-4 text-center ">
